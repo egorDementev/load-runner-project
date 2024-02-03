@@ -1,0 +1,1148 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "upgrade",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-version",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-protocol",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-key",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-extensions",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 18,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "Р В Р’В Р В Р вЂ№Р В Р’В Р В Р РЏР В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В¦Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В -31-2024",
+    "RecordingDuration": 83313,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1706704773,
+    "RecordingType": "Proxy",
+    "TotalBytesReceived": 18409,
+    "TotalBytesSent": 12702,
+    "TotalRequests": 18,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "yandex.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.0",
+          "IP": "[2a02:6b8:a::a]",
+          "IncludeInScript": false,
+          "Name": "yandex.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 240,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://yandex.ru/clck/safeclick/data=AxbTlK7nwx54N-ZGtgHkWrkRlcB-ZFZc_wKCMHwKsbOWqeknuG8JB8HVARpWECzR2nYI1zhFkMA3UqcEZOM5sdKVLDKtcAdJVmn7bIGuqihgThJ_rvoDJc58V_iMR1ciLWX-4BYwqjgTU6xw3tUrWNkq5VS7_nq9B2w7-L9sRdi3u2x5sifNGY7LkuZwDZr8btVRanveg8Pf37Lch_C4HQNVVMXQx4unCtp-y29AM8iXQGD1z61xG2zln1L09Q1AVl5jM9a5Ac6ICkG5gHW0G1Ld2f6lpPkKEef2x3ShzgtXY6AYiRzIMm_r0TPstbtIi4lH25sEa36X-n1Fbl75TSDQPGjbmC17mdqRsvxHS_auDjpil1oPs4M1WZDO5f47OUQx3XlnpJg5gRVMx3Y3UYdknDMDmuaif7rWSFLxSKa3l1qDaPhKmAmwaeg1-dvBgRZTZPFp85HY69sKmm-287rHCmexoJsEbQo9wrh2ENWp1IAgQ5yYaY0L9qGRbxR14jqmWFM43jkMST-jjAy3uAuZxdYn9-fxCy41sI05m8vy3UgWvFPKG8euV5cgg6MHMJg2DUmHxANsDP-GFFYtfecfak3D3uxi6Ug1chxKbsvvRKZlTw3WexfN5h9-Y4Gr_0vWskET7hB24VYkHZJpLuygkf9pUhjbkhrIV64ofsD9H4dc_eshgI1fupypDYjqq71pKkdHgGTKBXy7J32BmPvocz3Bu0KUJJxYna8YzfnnXmNWiAdwDQ0PPWh4gdBBAQSMz2rjTIW2tSlUipp0_sm3T-QqjZOjuN0B_bjH0BSo7CfXEcTTKKRKZHEs66I9NT8KYtQ2bdbFobdO1acUGyUZ2ZYGZMqsp_eSHFO4C6OVBagObZGw5aPiQk_9h7YEIPZroI582tjSMldADsBlcjc-peWyu7iQMgXH4NOxMar1pS4yaGXFq03Ap-g0pvg77M3ljF5VVJItFjaNv2_Xxt7wuTwxnQCHeNyvrD8ekKtn5hOMAlxZPu9mWZfAXFrLMkte9wD4JMzOCoeoSOHJNAdYxnMVQKa3H4--fW4QQl0HyZx5TUEWlYr785gYpACxGKYGRW_QLG1CkN4lcrP8cScVfaZRXs2fFuZA7-8kUSDCt-ELd-Jug5U3I4WAykwVtuYRc9PEHJZiHFLQtaAtVljYBDkEQpEi9P2nO0n9pEihdiaK0OyQO2pp53FAI26kTkftzJCvHtAKtX9P1siiHS-G-q2zgip7VAjwG2FeI9yNbAX95aqBe2Lh-iDWZiYdAPq5hCHLVW_RBuTIHnZ-VtPc-ag2JTRMLVfIOh7dQsnVR2F6-1BNMFCJCHfeIDWVh5cpcxAV0FZo0h18GeeVqv_kNJrpkIz-fwQpUe6gXz531fL0D04HjPL5KeV9oDZql6MwlFWfSBWPX4aAVZH6o5d94s5DRCpyHvEtvtAxWnpTycM3EQrdRKvrmUTM_DG_nYEE_4KJuJQfk6X_H34OjoipkWJdb8mcnwYC0va_DHKWPZ9Acz5HrXyAvqmdKCrkEXtqiKNjuQpzXXOAEiDOHghrxduBonB3opLVGtjdCvxsfyH-aN_VMflznh5IAYfd_42Z233bxtlIvziRBWIKlQ,,/sign=d1ffc36be72702eeaa8ee1bb8a83ccfd/keyno=WEB_0/ref=mag21uLwzH-iqa6a9U6fw6sBTXI61vrcLrAj4_J9mG4I1Nc1-A3T1qxG9Y6fwSY9gI34Q7NuXYGQ1RZZ6hlncha0ks1emT6dMY3jO6pAObNKhxMytIJiC_cABjGmIFfxIDmbXSmbXz4,/installation_info=eyJnZW8iOiJ2bGEiLCJjdHlwZSI6InByb2QiLCJ2ZXJ0aWNhbCI6IldFQiJ9/events=%5B%7B%22event%22%3A%22tech%22%2C%22id%22%3A%220_58au0%22%2C%22type%22%3A%22user-location-updater-old%22%2C%22cts%22%3A1706704838595%2C%22data%22%3A%7B%7D%2C%22event-id%22%3A%22ls1rztmr1f%22%2C%22service%22%3A%22web%22%2C%22hdtime%22%3A5422434.8%2C%22mc%22%3A4.816354426181254%7D%5D/primary_reqid=1706699415843752-607290277837545447-balancer-l7leveler-kubr-yp-vla-148-BAL-2053/*/yandex.ru/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 205,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://yandex.ru/clck/safeclick/data=AxbTlK7nwx54N-ZGtgHkWrkRlcB-ZFZc_wKCMHwKsbOWqeknuG8JB8HVARpWECzR2nYI1zhFkMA3UqcEZOM5sdKVLDKtcAdJVmn7bIGuqihgThJ_rvoDJc58V_iMR1ciLWX-4BYwqjgTU6xw3tUrWNkq5VS7_nq9B2w7-L9sRdi3u2x5sifNGY7LkuZwDZr8btVRanveg8Pf37Lch_C4HQNVVMXQx4unCtp-y29AM8iXQGD1z61xG2zln1L09Q1AVl5jM9a5Ac6ICkG5gHW0G1Ld2f6lpPkKEef2x3ShzgtXY6AYiRzIMm_r0TPstbtIi4lH25sEa36X-n1Fbl75TSDQPGjbmC17mdqRsvxHS_auDjpil1oPs4M1WZDO5f47OUQx3XlnpJg5gRVMx3Y3UYdknDMDmuaif7rWSFLxSKa3l1qDaPhKmAmwaeg1-dvBgRZTZPFp85HY69sKmm-287rHCmexoJsEbQo9wrh2ENWp1IAgQ5yYaY0L9qGRbxR14jqmWFM43jkMST-jjAy3uAuZxdYn9-fxCy41sI05m8vy3UgWvFPKG8euV5cgg6MHMJg2DUmHxANsDP-GFFYtfecfak3D3uxi6Ug1chxKbsvvRKZlTw3WexfN5h9-Y4Gr_0vWskET7hB24VYkHZJpLuygkf9pUhjbkhrIV64ofsD9H4dc_eshgI1fupypDYjqq71pKkdHgGTKBXy7J32BmPvocz3Bu0KUJJxYna8YzfnnXmNWiAdwDQ0PPWh4gdBBAQSMz2rjTIW2tSlUipp0_sm3T-QqjZOjuN0B_bjH0BSo7CfXEcTTKKRKZHEs66I9NT8KYtQ2bdbFobdO1acUGyUZ2ZYGZMqsp_eSHFO4C6OVBagObZGw5aPiQk_9h7YEIPZroI582tjSMldADsBlcjc-peWyu7iQMgXH4NOxMar1pS4yaGXFq03Ap-g0pvg77M3ljF5VVJItFjaNv2_Xxt7wuTwxnQCHeNyvrD8ekKtn5hOMAlxZPu9mWZfAXFrLMkte9wD4JMzOCoeoSOHJNAdYxnMVQKa3H4--fW4QQl0HyZx5TUEWlYr785gYpACxGKYGRW_QLG1CkN4lcrP8cScVfaZRXs2fFuZA7-8kUSDCt-ELd-Jug5U3I4WAykwVtuYRc9PEHJZiHFLQtaAtVljYBDkEQpEi9P2nO0n9pEihdiaK0OyQO2pp53FAI26kTkftzJCvHtAKtX9P1siiHS-G-q2zgip7VAjwG2FeI9yNbAX95aqBe2Lh-iDWZiYdAPq5hCHLVW_RBuTIHnZ-VtPc-ag2JTRMLVfIOh7dQsnVR2F6-1BNMFCJCHfeIDWVh5cpcxAV0FZo0h18GeeVqv_kNJrpkIz-fwQpUe6gXz531fL0D04HjPL5KeV9oDZql6MwlFWfSBWPX4aAVZH6o5d94s5DRCpyHvEtvtAxWnpTycM3EQrdRKvrmUTM_DG_nYEE_4KJuJQfk6X_H34OjoipkWJdb8mcnwYC0va_DHKWPZ9Acz5HrXyAvqmdKCrkEXtqiKNjuQpzXXOAEiDOHghrxduBonB3opLVGtjdCvxsfyH-aN_VMflznh5IAYfd_42Z233bxtlIvziRBWIKlQ,,/sign=d1ffc36be72702eeaa8ee1bb8a83ccfd/keyno=WEB_0/ref=mag21uLwzH-iqa6a9U6fw6sBTXI61vrcLrAj4_J9mG4I1Nc1-A3T1qxG9Y6fwSY9gI34Q7NuXYGQ1RZZ6hlncha0ks1emT6dMY3jO6pAObNKhxMytIJiC_cABjGmIFfxIDmbXSmbXz4,/installation_info=eyJnZW8iOiJ2bGEiLCJjdHlwZSI6InByb2QiLCJ2ZXJ0aWNhbCI6IldFQiJ9/events=%5B%7B%22event%22%3A%22tech%22%2C%22id%22%3A%220_58au0%22%2C%22type%22%3A%22user-location-updater-granted%22%2C%22cts%22%3A1706704822604%2C%22data%22%3A%7B%7D%2C%22event-id%22%3A%22ls1rzhakta%22%2C%22service%22%3A%22web%22%2C%22hdtime%22%3A5406443.9%2C%22mc%22%3A4.816354426181254%7D%5D/primary_reqid=1706699415843752-607290277837545447-balancer-l7leveler-kubr-yp-vla-148-BAL-2053/*/yandex.ru/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "yandex.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a02:6b8::2eb]",
+          "IncludeInScript": false,
+          "Name": "sync.browser.yandex.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 0,
+              "EventId": 268,
+              "HttpStatus": 200,
+              "Size": 540,
+              "URL": "https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=uBnD2%2FqzXsaDy9S7klmVTg%3D%3D&ya_soft=yabrowser&ui=DE604206-BE4D-4778-A7DB-2C9378F381D4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 16,
+              "EventId": 94,
+              "HttpStatus": 200,
+              "Size": 654,
+              "URL": "https://sync.browser.yandex.net/sync/command/?client=Chromium&client_id=uBnD2%2FqzXsaDy9S7klmVTg%3D%3D&ya_soft=yabrowser&ui=DE604206-BE4D-4778-A7DB-2C9378F381D4"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "vk.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "87.240.132.72",
+          "IncludeInScript": false,
+          "Name": "vk.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 230,
+              "HttpStatus": 200,
+              "Size": 265,
+              "URL": "https://vk.com/al_im.php?act=a_get_comms_key"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 220,
+              "HttpStatus": 200,
+              "Size": 263,
+              "URL": "https://vk.com/al_im.php?act=a_get_mutex_key"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 210,
+              "HttpStatus": 200,
+              "Size": 463,
+              "URL": "https://vk.com/al_im.php?act=a_load_member"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 195,
+              "HttpStatus": 200,
+              "Size": 209,
+              "URL": "https://vk.com/al_im.php?act=a_group_online_check_status"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "93.186.225.198",
+          "IncludeInScript": false,
+          "Name": "queuev4.vk.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 356,
+              "HttpStatus": 200,
+              "Size": 29,
+              "URL": "https://queuev4.vk.com/im0942?act=a_check&id=174764942&key=7b2707b0cff25cc7aa8780712b56b2cf25ce37692710d0ea613878bb7957209c&ts=27076182&wait=25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 342,
+              "HttpStatus": 200,
+              "Size": 30,
+              "URL": "https://queuev4.vk.com/im0942?act=a_check&key=037eecb66a5a50a9b6a6675ac1e63362cc96abcff50ea18e8f57077277f4d841&id=174764942&ts=285270573&wait=25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 215,
+              "HttpStatus": 200,
+              "Size": 94,
+              "URL": "https://queuev4.vk.com/im0942?act=a_check&id=174764942&key=7b2707b0cff25cc7aa8780712b56b2cf25ce37692710d0ea613878bb7957209c08c089f1c9717c83dd3349fbbcc92481136bff332a7b6a5cb3a4bae9250ea63e8d36f290d9ae76c3678d1ec6c15b920fd35938c19573d566a38704cafa4bf3bf642af3b2812373a8058c8d02607a5d490df8c7c1483335e6f5c4546bf5404fcc&ts=27076181_526059618_144604539_undefined&wait=25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 200,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "https://queuev4.vk.com/im0942?act=a_check&id=174764942&key=7b2707b0cff25cc7aa8780712b56b2cf25ce37692710d0ea613878bb7957209c18572bd6d1b5a4ad450e04b06a11fb168ef926d32570ce93060c4532d0caf221642af3b2812373a8058c8d02607a5d490df8c7c1483335e6f5c4546bf5404fcc879806e4220e4d31567a042a92cff471379dfe3f76e673c118dc9f99bfcea8c8&ts=27076181_526059618_undefined_144604539&wait=25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 182,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "https://queuev4.vk.com/im0942?act=a_release&id=174764942&key=7b2707b0cff25cc7aa8780712b56b2cf25ce37692710d0ea613878bb7957209c08c089f1c9717c83dd3349fbbcc92481136bff332a7b6a5cb3a4bae9250ea63e8d36f290d9ae76c3678d1ec6c15b920fd35938c19573d566a38704cafa4bf3bf642af3b2812373a8058c8d02607a5d490df8c7c1483335e6f5c4546bf5404fcc&ts=27076181_526059618_144604539_undefined&wait=25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 131,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "https://queuev4.vk.com/im0942?act=a_release&id=174764942&key=7b2707b0cff25cc7aa8780712b56b2cf25ce37692710d0ea613878bb7957209c18572bd6d1b5a4ad450e04b06a11fb168ef926d32570ce93060c4532d0caf221642af3b2812373a8058c8d02607a5d490df8c7c1483335e6f5c4546bf5404fcc879806e4220e4d31567a042a92cff471379dfe3f76e673c118dc9f99bfcea8c8&ts=27076181_526059618_undefined_144604539&wait=25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 117,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "https://queuev4.vk.com/im0942?act=a_release&id=174764942&key=7b2707b0cff25cc7aa8780712b56b2cf25ce37692710d0ea613878bb7957209c879806e4220e4d31567a042a92cff471379dfe3f76e673c118dc9f99bfcea8c8&ts=27076181_144604539&wait=25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 69,
+              "HttpStatus": 200,
+              "Size": 363,
+              "URL": "https://queuev4.vk.com/im0942?act=a_check&id=174764942&key=7b2707b0cff25cc7aa8780712b56b2cf25ce37692710d0ea613878bb7957209c879806e4220e4d31567a042a92cff471379dfe3f76e673c118dc9f99bfcea8c87c60b689117a9bbfe751ab465f2f3ac02cd48f6d8711d257d3bfa7ca1aca3097&ts=27076180_144604538_526059617&wait=25"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "93.186.225.198",
+          "IncludeInScript": false,
+          "Name": "im.vk.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 351,
+              "HttpStatus": 200,
+              "Size": 32,
+              "URL": "https://im.vk.com/nim174764942?act=a_check&key=ec3d9220900c31f7cbae089c0935546b04f73379196900ed&mode=1226&ts=1700946215&version=14&wait=25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 273,
+              "HttpStatus": 200,
+              "Size": 32,
+              "URL": "https://im.vk.com/nim221630774?act=a_check&key=9c35655db0a99509f0b2a883f31de61bd0aa134300b629a8&mode=1226&ts=1872372607&version=14&wait=25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 172,
+              "HttpStatus": 200,
+              "Size": 223,
+              "URL": "https://im.vk.com/nim174764942?act=a_check&key=ec3d9220900c31f7cbae089c0935546b04f73379196900ed&mode=1226&ts=1700946214&version=14&wait=25"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 140,
+              "HttpStatus": 200,
+              "Size": 973,
+              "URL": "https://im.vk.com/nim174764942?act=a_check&key=ec3d9220900c31f7cbae089c0935546b04f73379196900ed&mode=1226&ts=1700946208&version=14&wait=25"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "87.240.190.90",
+          "IncludeInScript": false,
+          "Name": "24112.ms.vk.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 191,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://24112.ms.vk.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "vk-portal.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "87.240.129.132",
+          "IncludeInScript": false,
+          "Name": "stats.vk-portal.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 263,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://stats.vk-portal.net/web-stats/p"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 177,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://stats.vk-portal.net/web-stats/p"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 155,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://stats.vk-portal.net/web-stats/p"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 150,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://stats.vk-portal.net/web-stats/p"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 145,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://stats.vk-portal.net/web-stats/p"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "userapi.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "212.188.25.24",
+          "IncludeInScript": false,
+          "Name": "sun59-1.userapi.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 235,
+              "HttpStatus": 200,
+              "Size": 2746,
+              "URL": "https://sun59-1.userapi.com/s/v1/ig2/s9kEjoLDEHplzeDUpWAYELGwBiIlvsJdMtdAWO0gj8tfeaKWTe5Q3fVhhE_Nl79EEiTpIkL1t63man7D-waWTfWg.jpg?size=50x50&quality=95&crop=864,1053,756,756&ava=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "notion.so",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a06:98c1:3123:e000::]",
+          "IncludeInScript": false,
+          "Name": "exp.notion.so",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 122,
+              "HttpStatus": 202,
+              "Size": 16,
+              "URL": "https://exp.notion.so/v1/rgstr"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.208.123",
+          "IncludeInScript": false,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 258,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/telemetry/3d04f0f5-1c80-47d3-830d-f09b217a7851/main/Firefox/121.0.1/release/20240108143603?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 253,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/telemetry/59ff580e-c827-4140-ac5f-96bceb8dd081/event/Firefox/121.0.1/release/20240108143603?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 108,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/4e903e13-4584-4210-a2fd-8204bf60fe2c"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 103,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/bff32194-6c5b-4fd0-bcbe-f7b439856d8c"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.244.181.201",
+          "IncludeInScript": false,
+          "Name": "aus5.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 15,
+              "EventId": 64,
+              "HttpStatus": 200,
+              "Size": 565,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.3007%2520(x64)/ISET%3ASSE4_2%2CMEM%3A7104/default/default/update.xml?force=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:1901:0:92a9::]",
+          "IncludeInScript": false,
+          "Name": "content-signature-2.cdn.mozilla.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 23,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "44.227.167.82",
+          "IncludeInScript": false,
+          "Name": "shavar.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 225,
+              "HttpStatus": 200,
+              "Size": 1497,
+              "URL": "https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=121.0&pver=2.2"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.243.93",
+          "IncludeInScript": false,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 338,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 187,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 99,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 56,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.149.100.209",
+          "IncludeInScript": false,
+          "Name": "firefox.settings.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 60,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.117.237.239",
+          "IncludeInScript": false,
+          "Name": "contile.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 19,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://contile.services.mozilla.com/v1/tiles"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a00:1450:4010:c0e::5f]",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 16,
+              "EventId": 51,
+              "HttpStatus": 200,
+              "Size": 50754,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDChhUaAhgFS0rz8CICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEMDkDRoCGAWSDwavIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQ9dsNGgIYBUmEmn8iAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARD3qg4aAhgFGpyAuSICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgFrYvPTCICIAIoAQ=="
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a00:1450:4010:c01::65]",
+          "IncludeInScript": false,
+          "Name": "google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 318,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://google.com/domainreliability/upload"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:1901:0:38d7::]",
+          "IncludeInScript": false,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 248,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 244,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 6,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 2,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "91.105.192.100",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "91.105.192.100",
+          "IncludeInScript": false,
+          "Name": "91.105.192.100",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 333,
+              "HttpStatus": 200,
+              "Size": 136,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 329,
+              "HttpStatus": 200,
+              "Size": 144,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 325,
+              "HttpStatus": 200,
+              "Size": 204,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 321,
+              "HttpStatus": 200,
+              "Size": 124,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 313,
+              "HttpStatus": 200,
+              "Size": 132,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 309,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 305,
+              "HttpStatus": 200,
+              "Size": 200,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 301,
+              "HttpStatus": 200,
+              "Size": 200,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 297,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 293,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 289,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 285,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 281,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 277,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 167,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 163,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 159,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 135,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 126,
+              "HttpStatus": 200,
+              "Size": 180,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 112,
+              "HttpStatus": 200,
+              "Size": 152,
+              "URL": "http://91.105.192.100/api"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "127.0.0.1",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "127.0.0.1",
+          "IncludeInScript": true,
+          "Name": "127.0.0.1",
+          "Port": 8090,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 346,
+              "HttpStatus": 200,
+              "Size": 2365,
+              "URL": "http://127.0.0.1:8090/WebTours/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 89,
+              "HttpStatus": 200,
+              "Size": 688,
+              "URL": "http://127.0.0.1:8090/WebTours/images/home.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 85,
+              "HttpStatus": 200,
+              "Size": 726,
+              "URL": "http://127.0.0.1:8090/WebTours/images/in_flights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 81,
+              "HttpStatus": 200,
+              "Size": 4182,
+              "URL": "http://127.0.0.1:8090/WebTours/reservations.pl?page=welcome"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 77,
+              "HttpStatus": 200,
+              "Size": 1476,
+              "URL": "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=flights"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 73,
+              "HttpStatus": 200,
+              "Size": 560,
+              "URL": "http://127.0.0.1:8090/WebTours/welcome.pl?page=search"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 46,
+              "HttpStatus": 200,
+              "Size": 751,
+              "URL": "http://127.0.0.1:8090/WebTours/images/signoff.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 42,
+              "HttpStatus": 200,
+              "Size": 733,
+              "URL": "http://127.0.0.1:8090/WebTours/images/itinerary.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 38,
+              "HttpStatus": 200,
+              "Size": 726,
+              "URL": "http://127.0.0.1:8090/WebTours/images/flights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 34,
+              "HttpStatus": 200,
+              "Size": 1476,
+              "URL": "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 30,
+              "HttpStatus": 200,
+              "Size": 911,
+              "URL": "http://127.0.0.1:8090/WebTours/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 26,
+              "HttpStatus": 200,
+              "Size": 437,
+              "URL": "http://127.0.0.1:8090/WebTours/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 14,
+              "HttpStatus": 200,
+              "Size": 2748,
+              "URL": "http://127.0.0.1:8090/WebTours/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 10,
+              "HttpStatus": 200,
+              "Size": 630,
+              "URL": "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 4
+}

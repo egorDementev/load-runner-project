@@ -1,0 +1,3 @@
+"advanceDiscount=0&depart=Sydney&departDate=02%2F05%2F2024&arrive=Los+Angeles&returnDate=02%2F0"
+"8%2F2024&numPassengers=1&seatPref=Window&seatType=Business&findFlights.x=45&findFlights.y=9&.c"
+"gifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LoadRunner\LRProjects\UC2_CheckMyTickets
+-ID:\LoadRunner\include
+-ed:\loadrunner\lrprojects\uc2_checkmytickets\\logfile.log
+d:\loadrunner\lrprojects\uc2_checkmytickets\\combined_UC2_CheckMyTickets.c
+d:\loadrunner\lrprojects\uc2_checkmytickets\\pre_cci.c

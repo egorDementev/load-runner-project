@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LoadRunner\LRProjects\UC5_BuyTicket
+-ID:\LoadRunner\include
+-ed:\loadrunner\lrprojects\uc5_buyticket\\logfile.log
+d:\loadrunner\lrprojects\uc5_buyticket\\combined_UC5_BuyTicket.c
+d:\loadrunner\lrprojects\uc5_buyticket\\pre_cci.c

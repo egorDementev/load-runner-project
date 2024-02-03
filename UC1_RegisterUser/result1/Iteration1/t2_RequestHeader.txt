@@ -1,0 +1,14 @@
+GET /WebTours/login.pl?username=&password=&getInfo=true HTTP/1.1
+Referer: http://127.0.0.1:8090/WebTours/home.html
+Sec-Fetch-Dest: frame
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+User-Agent: Mozilla/5.0
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,en,*
+Accept: */*
+Connection: Keep-Alive
+Host: 127.0.0.1:8090
+Cookie: MSO=SID&1706771107&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+

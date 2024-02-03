@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LoadRunner\LRProjects\UC3_RemoveTicket
+-ID:\LoadRunner\include
+-ed:\loadrunner\lrprojects\uc3_removeticket\\logfile.log
+d:\loadrunner\lrprojects\uc3_removeticket\\combined_UC3_RemoveTicket.c
+d:\loadrunner\lrprojects\uc3_removeticket\\pre_cci.c

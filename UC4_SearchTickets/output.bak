@@ -1,0 +1,130 @@
+Virtual User Script started at: 03.02.2024 14:52:15
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\LoadRunner\LRProjects\UC4_SearchTickets\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "D:\LoadRunner\LRProjects\UC4_SearchTickets"  	[MsgId: MMSG-27052]
+Vuser output directory: "D:\LoadRunner\LRProjects\UC4_SearchTickets"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "D:\LoadRunner\LRProjects\UC4_SearchTickets"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2024-02-03 11:52:15  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2024-02-03 14:52:15  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "D:\LoadRunner\LRProjects\UC4_SearchTickets\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 10  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): Notify: Transaction "UC4_SearchTickets" started.
+Action.c(7): Notify: Transaction "go_to_welcome_page" started.
+Action.c(9): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(9): An unrecognized header ("Sec-Fetch-Dest") is being added  	[MsgId: MMSG-26595]
+Action.c(9): "Sec-Fetch-Dest: frame" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(9): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(11): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(11): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+Action.c(11): "Sec-Fetch-Mode: navigate" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(11): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(13): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(13): An unrecognized header ("Sec-Fetch-Site") is being added  	[MsgId: MMSG-26595]
+Action.c(13): "Sec-Fetch-Site: same-origin" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(13): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(15): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(15): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(15): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(18): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(18): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(27): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(32): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(32): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(33): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(34): t=1374ms: Connecting [0] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(34): t=1376ms: Connected socket [0] from 127.0.0.1:51027 to 127.0.0.1:8090 in 0 ms  	[MsgId: MMSG-26000]
+Action.c(34): t=1376ms: 418-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+Action.c(34):     GET /WebTours/welcome.pl?signOff=true HTTP/1.1\r\n
+Action.c(34):     Referer: http://127.0.0.1:8090/WebTours/\r\n
+Action.c(34):     Sec-Fetch-Dest: frame\r\n
+Action.c(34):     Sec-Fetch-Mode: navigate\r\n
+Action.c(34):     Sec-Fetch-Site: same-origin\r\n
+Action.c(34):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(34):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121
+Action.c(34):     .0\r\n
+Action.c(34):     Accept-Encoding: gzip, deflate\r\n
+Action.c(34):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(34):     Accept: */*\r\n
+Action.c(34):     Connection: Keep-Alive\r\n
+Action.c(34):     Host: 127.0.0.1:8090\r\n
+Action.c(34):     \r\n
+Action.c(34): t=1893ms: 102-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+Action.c(34):     HTTP/1.1 501 Not Implemented\r\n
+Action.c(34):     Connection: close\r\n
+Action.c(34):     Content-Length: 0\r\n
+Action.c(34):     Content-Type: application/json\r\n
+Action.c(34):     \r\n
+Action.c(34): Error -26611: HTTP Status-Code=501 (Not Implemented) for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MERR-26611]
+Action.c(34): t=1900ms: Closing connection [0] to server 127.0.0.1 - server indicated that the connection should be closed  	[MsgId: MMSG-26000]
+Action.c(34): t=1900ms: Closed connection [0] to 127.0.0.1:8090 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(34): t=1905ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+Action.c(34): Search registration for "userSession" parameter is filtered by "Request URL"  	[MsgId: MMSG-26000]
+Action.c(34): Notify: Saving Parameter "userSession = ".
+Action.c(34): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(34): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+Action.c(34): Notify: Saving Parameter "SID = ".
+Action.c(34): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(34): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(34): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 102 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(34): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 102 header bytes  	[MsgId: MMSG-26388]
+Action.c(34): Notify: Transaction "go_to_welcome_page" ended with a "Fail" status (Duration: 0,8460 Wasted Time: 0,1691).
+Action.c(34): Notify: Transaction "go_to_welcome_page" has 4 error message(s).
+Action.c(34): Notify: The 1st error message associated with transaction "go_to_welcome_page" is "Error -26611: HTTP Status-Code=501 (Not Implemented) for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true""
+Action.c(34): Notify: The 2nd error message associated with transaction "go_to_welcome_page" is "Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size."
+Action.c(34): Notify: The 3rd error message associated with transaction "go_to_welcome_page" is "Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find"
+Action.c(34): Notify: The 4th error message associated with transaction "go_to_welcome_page" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 102 and 0, respectively."
+Action.c(34): Notify: Transaction "UC4_SearchTickets" ended with a "Fail" status (Duration: 0.8610 Wasted Time: 0.1691).
+Action.c(34): Notify: Transaction "UC4_SearchTickets" has 4 error message(s).
+Action.c(34): Notify: The 1st error message associated with transaction "UC4_SearchTickets" is "Error -26611: HTTP Status-Code=501 (Not Implemented) for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true""
+Action.c(34): Notify: The 2nd error message associated with transaction "UC4_SearchTickets" is "Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size."
+Action.c(34): Notify: The 3rd error message associated with transaction "UC4_SearchTickets" is "Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find"
+Action.c(34): Notify: The 4th error message associated with transaction "UC4_SearchTickets" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 102 and 0, respectively."
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

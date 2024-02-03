@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LoadRunner\LRProjects\UC1_RegisterUser
+-ID:\LoadRunner\include
+-ed:\loadrunner\lrprojects\uc1_registeruser\\logfile.log
+d:\loadrunner\lrprojects\uc1_registeruser\\combined_UC1_RegisterUser.c
+d:\loadrunner\lrprojects\uc1_registeruser\\pre_cci.c

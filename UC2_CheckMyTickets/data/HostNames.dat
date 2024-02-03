@@ -1,0 +1,6 @@
+[hosts]
+tile-service.weather.microsoft.com=
+127.0.0.1=
+r3.o.lencr.org=
+http-inputs-notion.splunkcloud.com=
+push.services.mozilla.com=

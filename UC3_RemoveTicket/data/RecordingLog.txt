@@ -1,0 +1,731 @@
+[API Trapper      (40b0:19d8)] Recording in 32-bit mode: D:\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (4a5c:4edc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4a5c:4edc)] Load Network Traffic Analyzers:
+[Network Analyzer (4a5c:4edc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (4a5c:4edc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (4a5c:4edc)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (4a5c:4edc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (4a5c:4edc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (4a5c:4edc)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (4a5c:4edc)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (4a5c:4edc)] Started proxy on port 8888 listening IP 192.168.228.97, 127.0.0.1, in synchronous mode
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8155
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8156
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8163
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8164
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8169
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8173
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8176
+[Proxy Recording  (4a5c:3548)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8179
+[Proxy Recording  (4a5c:3548)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8180
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8182
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8183
+[Proxy Recording  (4a5c:3548)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8184
+[Web Request      (4a5c:3548)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (4a5c:3548)]   (Sid:  1) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer (4a5c:3548)]   (Sid:  1) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:3548)]   (Sid:  1) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:3548)] Sent 90 bytes to client @ 127.0.0.1:8176
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8185
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8193
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8194
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8195
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8196
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8197
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8198
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8199
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8201
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8202
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8204
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8205
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8206
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8207
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8208
+[Proxy Recording  (4a5c:5004)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true ...
+[Proxy Recording  (4a5c:5004)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true ...
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8210
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8211
+[Proxy Recording  (4a5c:5004)] Received response of 349 header and 630 body bytes from http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true
+[Web Request      (4a5c:5004)] "GET http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"   
+[Network Analyzer (4a5c:5004)]   (Sid:  2) Client -> Server @ : 521 bytes (Service=HTTP)
+[Network Analyzer (4a5c:5004)]   (Sid:  2) Server -> Client : 366 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:5004)]   (Sid:  2) Server -> Client : 630 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:5004)] Sent 630 bytes to client @ 127.0.0.1:8184
+[Proxy Recording  (4a5c:5004)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4a5c:5004)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4a5c:5004)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8212
+[Web Request      (4a5c:5004)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (4a5c:5004)]   (Sid:  3) Client -> Server @ : 312 bytes (Service=HTTP)
+[Network Analyzer (4a5c:5004)]   (Sid:  3) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:5004)]   (Sid:  3) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:5004)] Sent 8 bytes to client @ 127.0.0.1:8185
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8213
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8214
+[Proxy Recording.Error (4a5c:52a4)] Exception is caught while trying to connect to https://im.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:53fc)] Exception is caught while trying to connect to https://im.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:53fc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:52a4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8215
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8216
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8217
+[Proxy Recording.Error (4a5c:613c)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8218
+[Proxy Recording.Error (4a5c:613c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:613c)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?in=home ...
+[Proxy Recording  (4a5c:613c)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?in=home ...
+[Proxy Recording  (4a5c:613c)] Received response of 219 header and 2760 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?in=home
+[Web Request      (4a5c:613c)] "GET http://127.0.0.1:8090/WebTours/nav.pl?in=home"   
+[Network Analyzer (4a5c:613c)]   (Sid:  4) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (4a5c:613c)]   (Sid:  4) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:613c)]   (Sid:  4) Server -> Client : 2760 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:613c)] Sent 2760 bytes to client @ 127.0.0.1:8207
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8219
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8220
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8221
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8222
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8223
+[Proxy Recording.Error (4a5c:1ea8)] Exception is caught while trying to connect to https://vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8224
+[Proxy Recording.Error (4a5c:1ea8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8225
+[User action                 ] StartTransactionEvent login [Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8226
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8227
+[Proxy Recording.Error (4a5c:605c)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:605c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8228
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8229
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8230
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8231
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8232
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8233
+[Proxy Recording  (4a5c:4e14)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl ...
+[Proxy Recording  (4a5c:4e14)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl ...
+[Proxy Recording  (4a5c:4e14)] Received response of 382 header and 437 body bytes from http://127.0.0.1:8090/WebTours/login.pl
+[Network Analyzer (4a5c:4e14)]   (Sid:  5) Client -> Server @ : 708 bytes (Service=HTTP)
+[Web Request      (4a5c:4e14)] "POST http://127.0.0.1:8090/WebTours/login.pl"   
+[Network Analyzer (4a5c:4e14)]   (Sid:  5) Client -> Server @ : 125 bytes (Service=HTTP)
+[Network Analyzer (4a5c:4e14)]   (Sid:  5) Server -> Client : 399 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:4e14)]   (Sid:  5) Server -> Client : 437 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:4e14)] Sent 437 bytes to client @ 127.0.0.1:8232
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8234
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8235
+[Proxy Recording  (4a5c:34d8)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home ...
+[Proxy Recording  (4a5c:34d8)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home ...
+[Proxy Recording  (4a5c:34d8)] Received response of 219 header and 1476 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home
+[Web Request      (4a5c:34d8)] "GET http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"   
+[Network Analyzer (4a5c:34d8)]   (Sid:  6) Client -> Server @ : 767 bytes (Service=HTTP)
+[Network Analyzer (4a5c:34d8)]   (Sid:  6) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:34d8)]   (Sid:  6) Server -> Client : 1476 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:34d8)] Sent 1476 bytes to client @ 127.0.0.1:8234
+[Proxy Recording  (4a5c:34d8)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl?intro=true ...
+[Proxy Recording  (4a5c:34d8)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl?intro=true ...
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8236
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8237
+[Proxy Recording  (4a5c:34d8)] Received response of 191 header and 911 body bytes from http://127.0.0.1:8090/WebTours/login.pl?intro=true
+[Web Request      (4a5c:34d8)] "GET http://127.0.0.1:8090/WebTours/login.pl?intro=true"   
+[Network Analyzer (4a5c:34d8)]   (Sid:  7) Client -> Server @ : 762 bytes (Service=HTTP)
+[Network Analyzer (4a5c:34d8)]   (Sid:  7) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:34d8)]   (Sid:  7) Server -> Client : 911 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:34d8)] Sent 911 bytes to client @ 127.0.0.1:8235
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8238
+[Proxy Recording.Error (4a5c:5d50)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:5d50)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:293c)] Exception is caught while trying to connect to https://docs.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8239
+[Proxy Recording.Error (4a5c:293c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8240
+[User action                 ] EndTransactionEvent login [Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8241
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8242
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8243
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8244
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8245
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8246
+[Proxy Recording  (4a5c:3548)] Trying to connect to https://contile.services.mozilla.com:443/v1/tiles ...
+[Proxy Recording  (4a5c:3548)] Trying to connect to https://contile.services.mozilla.com:443/v1/tiles ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8248
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8250
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8251
+[Proxy Recording  (4a5c:3548)] Received response of 249 header and 0 body bytes from https://contile.services.mozilla.com:443/v1/tiles
+[Web Request      (4a5c:3548)] "GET https://contile.services.mozilla.com/v1/tiles"   
+[Network Analyzer (4a5c:3548)]   (Sid:  8) Client -> Server @ : 294 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4a5c:3548)]   (Sid:  8) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4a5c:3548)] Sent 0 bytes to client @ 127.0.0.1:8180
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8252
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8253
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8254
+[Proxy Recording  (4a5c:40e4)] Trying to connect to https://spocs.getpocket.com:443/spocs ...
+[Proxy Recording  (4a5c:5018)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain ...
+[Proxy Recording  (4a5c:5018)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain ...
+[Proxy Recording  (4a5c:5018)] Received response of 144 header and 0 body bytes from https://content-signature-2.cdn.mozilla.net:443/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain
+[Web Request      (4a5c:5018)] "GET https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain"   
+[Network Analyzer (4a5c:5018)]   (Sid:  9) Client -> Server @ : 479 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4a5c:5018)]   (Sid:  9) Server -> Client : 171 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4a5c:5018)] Sent 0 bytes to client @ 127.0.0.1:8183
+[Proxy Recording  (4a5c:40e4)] Trying to connect to https://spocs.getpocket.com:443/spocs ...
+[Proxy Recording  (4a5c:40e4)] Received response of 216 header and 394 body bytes from https://spocs.getpocket.com:443/spocs
+[Network Analyzer (4a5c:40e4)]   (Sid: 10) Client -> Server @ : 327 bytes (SSL)(Service=HTTP)
+[Web Request      (4a5c:40e4)] "POST https://spocs.getpocket.com/spocs"   
+[Network Analyzer (4a5c:40e4)]   (Sid: 10) Client -> Server @ : 197 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4a5c:40e4)]   (Sid: 10) Server -> Client : 205 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4a5c:40e4)]   (Sid: 10) Server -> Client : 394 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4a5c:40e4)] Sent 394 bytes to client @ 127.0.0.1:8182
+[Proxy Recording.Error (4a5c:5004)] Exception is caught while trying to connect to https://safebrowsing.googleapis.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:5004)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8259
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8260
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8261
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8262
+[Proxy Recording  (4a5c:53fc)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8265
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8266
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8267
+[Web Request      (4a5c:53fc)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4a5c:53fc)]   (Sid: 11) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4a5c:53fc)]   (Sid: 11) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4a5c:52a4)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.3007%2520(x64)/ISET%3ASSE4_2%2CMEM%3A7104/default/default/update.xml?force=1 ...
+[Proxy Recording  (4a5c:52a4)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.3007%2520(x64)/ISET%3ASSE4_2%2CMEM%3A7104/default/default/update.xml?force=1 ...
+[Proxy Recording  (4a5c:52a4)] Received response of 453 header and 565 body bytes from https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.3007%2520(x64)/ISET%3ASSE4_2%2CMEM%3A7104/default/default/update.xml?force=1
+[Web Request      (4a5c:52a4)] "GET https://aus5.mozilla.org/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.3007%2520(x64)/ISET%3ASSE4_2%2CMEM%3A7104/default/default/update.xml?force=1"   
+[Network Analyzer (4a5c:52a4)]   (Sid: 12) Client -> Server @ : 487 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4a5c:52a4)]   (Sid: 12) Server -> Client : 442 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4a5c:52a4)]   (Sid: 12) Server -> Client : 565 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4a5c:52a4)] Sent 565 bytes to client @ 127.0.0.1:8195
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8270
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8271
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8272
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8273
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8274
+[Proxy Recording.Error (4a5c:4e04)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:3a70)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:4e04)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5e0c)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:3a70)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5e0c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:4870)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US ...
+[Proxy Recording  (4a5c:4870)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US ...
+[Proxy Recording  (4a5c:4870)] Received response of 125 header and 0 body bytes from https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US
+[Web Request      (4a5c:4870)] "GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US"   
+[Network Analyzer (4a5c:4870)]   (Sid: 13) Client -> Server @ : 497 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4a5c:4870)]   (Sid: 13) Server -> Client : 152 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4a5c:4870)] Sent 0 bytes to client @ 127.0.0.1:8196
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8277
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8278
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8279
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8280
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8281
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8282
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8283
+[User action                 ] StartTransactionEvent go_to_my_tickets [Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8284
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8285
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8286
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8287
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8288
+[Proxy Recording.Error (4a5c:578c)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:578c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:40c8)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:3770)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:613c)] Exception is caught while trying to connect to https://firefox.settings.services.mozilla.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:1ea8)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:3d58)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:35c0)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4a5c:578c)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary ...
+[Proxy Recording.Error (4a5c:40c8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:3770)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:29c0)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:613c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:1ea8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:3d58)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:35c0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:578c)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary ...
+[Proxy Recording.Error (4a5c:29c0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:578c)] Received response of 158 header and 535 body bytes from http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary
+[Web Request      (4a5c:578c)] "GET http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"   
+[Network Analyzer (4a5c:578c)]   (Sid: 14) Client -> Server @ : 804 bytes (Service=HTTP)
+[Network Analyzer (4a5c:578c)]   (Sid: 14) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:578c)]   (Sid: 14) Server -> Client : 535 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:578c)] Sent 535 bytes to client @ 127.0.0.1:8286
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8289
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8290
+[Proxy Recording  (4a5c:3d58)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary ...
+[Proxy Recording  (4a5c:35c0)] Trying to connect to http://127.0.0.1:8090/WebTours/itinerary.pl ...
+[Proxy Recording  (4a5c:3d58)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary ...
+[Proxy Recording  (4a5c:35c0)] Trying to connect to http://127.0.0.1:8090/WebTours/itinerary.pl ...
+[Proxy Recording  (4a5c:35c0)] Received response of 219 header and 9253 body bytes from http://127.0.0.1:8090/WebTours/itinerary.pl
+[Proxy Recording  (4a5c:3d58)] Received response of 219 header and 1476 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary
+[Web Request      (4a5c:35c0)] "GET http://127.0.0.1:8090/WebTours/itinerary.pl"   
+[Network Analyzer (4a5c:35c0)]   (Sid: 15) Client -> Server @ : 772 bytes (Service=HTTP)
+[Network Analyzer (4a5c:35c0)]   (Sid: 15) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:35c0)]   (Sid: 15) Server -> Client : 9253 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:35c0)] Sent 9253 bytes to client @ 127.0.0.1:8290
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8292
+[Web Request      (4a5c:3d58)] "GET http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (4a5c:3d58)]   (Sid: 16) Client -> Server @ : 789 bytes (Service=HTTP)
+[Network Analyzer (4a5c:3d58)]   (Sid: 16) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:3d58)]   (Sid: 16) Server -> Client : 1476 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:3d58)] Sent 1476 bytes to client @ 127.0.0.1:8289
+[Proxy Recording.Error (4a5c:5a48)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:5a48)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4e14)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:5b1c)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:5378)] Exception is caught while trying to connect to https://vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:49a8)] Exception is caught while trying to connect to https://vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:605c)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:3df4)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:3234)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:4e14)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5b1c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5378)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5a18)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:49a8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:605c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:3df4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:2860)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:3234)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5a18)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:2860)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5644)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8294
+[Proxy Recording.Error (4a5c:41c4)] Exception is caught while trying to connect to https://vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:5644)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8295
+[Proxy Recording.Error (4a5c:41c4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:293c)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (4a5c:61ac)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4/selection?id=1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4&sid=95abbec11481554&vc=1&c=1&w=1&flr=0&smv=125&smb=%5B125%2C%20%5D&token=AC4w5VjXO0hXh7QNtnfBmdCdZU_4f8IrVg%3A1706714203136&includes_info_params=true&cros_files=false ...
+[Proxy Recording  (4a5c:3130)] Trying to connect to https://queuev4.vk.com:443/im0942?act=a_check&key=9f6aa7828618647b5842311124e6fe0d2360e746588330fae49c0ef8944a5506&id=174764942&ts=222286608&wait=25 ...
+[Proxy Recording  (4a5c:3130)] Trying to connect to https://queuev4.vk.com:443/im0942?act=a_check&key=9f6aa7828618647b5842311124e6fe0d2360e746588330fae49c0ef8944a5506&id=174764942&ts=222286608&wait=25 ...
+[Proxy Recording  (4a5c:61ac)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4/selection?id=1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4&sid=95abbec11481554&vc=1&c=1&w=1&flr=0&smv=125&smb=%5B125%2C%20%5D&token=AC4w5VjXO0hXh7QNtnfBmdCdZU_4f8IrVg%3A1706714203136&includes_info_params=true&cros_files=false ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8302
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8303
+[Proxy Recording  (4a5c:5378)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:5378)] Trying to connect to http://91.105.192.100:80/api ...
+[Web Request      (4a5c:293c)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4a5c:293c)]   (Sid: 17) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4a5c:293c)]   (Sid: 17) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4a5c:5378)] Received response of 130 header and 152 body bytes from http://91.105.192.100:80/api
+[Network Analyzer (4a5c:5378)]   (Sid: 18) Client -> Server @ : 248 bytes (Service=HTTP)
+[Web Request      (4a5c:5378)] "POST http://91.105.192.100/api"   
+[Network Analyzer (4a5c:5378)]   (Sid: 18) Client -> Server @ : 116 bytes (Service=HTTP)
+[Network Analyzer (4a5c:5378)]   (Sid: 18) Server -> Client : 147 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:5378)]   (Sid: 18) Server -> Client : 152 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:5378)] Sent 152 bytes to client @ 192.168.228.97:8303
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8305
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8306
+[Proxy Recording  (4a5c:61ac)] Received response of 2484 header and 33 body bytes from https://docs.google.com:443/spreadsheets/d/1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4/selection?id=1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4&sid=95abbec11481554&vc=1&c=1&w=1&flr=0&smv=125&smb=%5B125%2C%20%5D&token=AC4w5VjXO0hXh7QNtnfBmdCdZU_4f8IrVg%3A1706714203136&includes_info_params=true&cros_files=false
+[Network Analyzer (4a5c:61ac)]   (Sid: 19) Client -> Server @ : 3340 bytes (SSL)(Service=HTTP)
+[Web Request      (4a5c:61ac)] "POST https://docs.google.com/spreadsheets/d/1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4/selection?id=1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4&sid=95abbec11481554&vc=1&c=1&w=1&flr=0&smv=125&smb=%5B125%2C%20%5D&token=AC4w5VjXO0hXh7QNtnfBmdCdZU_4f8IrVg%3A1706714203136&includes_info_params=true&cros_files=false"   
+[Network Analyzer (4a5c:61ac)]   (Sid: 19) Client -> Server @ : 318 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4a5c:61ac)]   (Sid: 19) Server -> Client : 2473 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4a5c:61ac)]   (Sid: 19) Server -> Client : 33 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4a5c:61ac)] Sent 33 bytes to client @ 192.168.228.97:8239
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8307
+[Proxy Recording.Error (4a5c:5d50)] Exception is caught while trying to connect to https://23112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8308
+[Proxy Recording.Error (4a5c:5d50)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8309
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8310
+[Proxy Recording  (4a5c:49a8)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:5a48)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:49a8)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:5a48)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:49a8)] Received response of 130 header and 168 body bytes from http://91.105.192.100:80/api
+[Network Analyzer (4a5c:49a8)]   (Sid: 20) Client -> Server @ : 224 bytes (Service=HTTP)
+[Web Request      (4a5c:49a8)] "POST http://91.105.192.100/api"   
+[Network Analyzer (4a5c:49a8)]   (Sid: 20) Client -> Server @ : 360 bytes (Service=HTTP)
+[Network Analyzer (4a5c:49a8)]   (Sid: 20) Server -> Client : 147 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:49a8)]   (Sid: 20) Server -> Client : 168 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:49a8)] Sent 168 bytes to client @ 192.168.228.97:8309
+[User action                 ] EndTransactionEvent go_to_my_tickets [Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8312
+[Proxy Recording  (4a5c:5a18)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4a5c:5a18)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4a5c:5a18)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Web Request      (4a5c:5a18)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (4a5c:5a18)]   (Sid: 21) Client -> Server @ : 310 bytes (Service=HTTP)
+[Network Analyzer (4a5c:5a18)]   (Sid: 21) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:5a18)]   (Sid: 21) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:5a18)] Sent 90 bytes to client @ 127.0.0.1:8312
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8313
+[Proxy Recording  (4a5c:29c0)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4a5c:29c0)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4a5c:29c0)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (4a5c:29c0)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (4a5c:29c0)]   (Sid: 22) Client -> Server @ : 312 bytes (Service=HTTP)
+[Network Analyzer (4a5c:29c0)]   (Sid: 22) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:29c0)]   (Sid: 22) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:29c0)] Sent 8 bytes to client @ 127.0.0.1:8313
+[Proxy Recording.Error (4a5c:3548)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8316
+[Proxy Recording.Error (4a5c:3548)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:34d8)] Exception is caught while trying to connect to https://top-fwz1.mail.ru:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8317
+[Proxy Recording.Error (4a5c:34d8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8320
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8321
+[Proxy Recording  (4a5c:578c)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:578c)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:578c)] Received response of 130 header and 112 body bytes from http://91.105.192.100:80/api
+[Network Analyzer (4a5c:578c)]   (Sid: 23) Client -> Server @ : 224 bytes (Service=HTTP)
+[Web Request      (4a5c:578c)] "POST http://91.105.192.100/api"   
+[Network Analyzer (4a5c:578c)]   (Sid: 23) Client -> Server @ : 184 bytes (Service=HTTP)
+[Network Analyzer (4a5c:578c)]   (Sid: 23) Server -> Client : 147 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:578c)]   (Sid: 23) Server -> Client : 112 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:578c)] Sent 112 bytes to client @ 192.168.228.97:8321
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8322
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8323
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8324
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8325
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8326
+[Proxy Recording  (4a5c:34d8)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:3234)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:34d8)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8327
+[Proxy Recording  (4a5c:34d8)] Received response of 130 header and 168 body bytes from http://91.105.192.100:80/api
+[Proxy Recording  (4a5c:3234)] Trying to connect to http://91.105.192.100:80/api ...
+[User action                 ] StartTransactionEvent remove [Network Analyzer (4a5c:34d8)]   (Sid: 24) Client -> Server @ : 224 bytes (Service=HTTP)
+[Web Request      (4a5c:34d8)] "POST http://91.105.192.100/api"   
+[Network Analyzer (4a5c:34d8)]   (Sid: 24) Client -> Server @ : 328 bytes (Service=HTTP)
+[Network Analyzer (4a5c:34d8)]   (Sid: 24) Server -> Client : 147 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:34d8)]   (Sid: 24) Server -> Client : 168 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:34d8)] Sent 168 bytes to client @ 192.168.228.97:8325
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8328
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8329
+[Proxy Recording.Error (4a5c:5c18)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:5c18)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5c6c)] Exception is caught while trying to connect to https://api.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:5c6c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4af4)] Exception is caught while trying to connect to https://api.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:4af4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8330
+[Proxy Recording  (4a5c:41c4)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8331
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8332
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8333
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8334
+[Proxy Recording  (4a5c:5378)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8335
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8336
+[Proxy Recording  (4a5c:5c18)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8337
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8338
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8339
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8340
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8341
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8342
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8343
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8344
+[Proxy Recording  (4a5c:1a54)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8345
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8346
+[Proxy Recording  (4a5c:3534)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8347
+[Proxy Recording.Error (4a5c:4ca0)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:6230)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:53fc)] Exception is caught while trying to connect to https://im.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:26ac)] Exception is caught while trying to connect to https://api.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8348
+[Proxy Recording.Error (4a5c: 838)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:3978)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:4ca0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:40e4)] Exception is caught while trying to connect to https://23112.ms.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:6230)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:53fc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:26ac)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5018)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8349
+[Proxy Recording.Error (4a5c:46ac)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c: 838)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:3978)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5850)] Exception is caught while trying to connect to https://25112.ms.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:40e4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:6230)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (4a5c:5018)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:46ac)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5004)] Exception is caught while trying to connect to https://25112.ms.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4a5c: 838)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (4a5c:5850)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5004)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8350
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8351
+[Proxy Recording  (4a5c:5004)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:5d20)] Client request from @ 127.0.0.1:8352
+[Proxy Recording  (4a5c:5850)] Trying to connect to http://127.0.0.1:8090/WebTours/itinerary.pl ...
+[Proxy Recording  (4a5c:5850)] Trying to connect to http://127.0.0.1:8090/WebTours/itinerary.pl ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8353
+[Proxy Recording  (4a5c:5850)] Received response of 219 header and 8153 body bytes from http://127.0.0.1:8090/WebTours/itinerary.pl
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8354
+[Network Analyzer (4a5c:5850)]   (Sid: 25) Client -> Server @ : 881 bytes (Service=HTTP)
+[Web Request      (4a5c:5850)] "POST http://127.0.0.1:8090/WebTours/itinerary.pl"   
+[Network Analyzer (4a5c:5850)]   (Sid: 25) Client -> Server @ : 290 bytes (Service=HTTP)
+[Network Analyzer (4a5c:5850)]   (Sid: 25) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (4a5c:5850)]   (Sid: 25) Server -> Client : 8153 bytes  (Service=HTTP)
+[Proxy Recording  (4a5c:5850)] Sent 8153 bytes to client @ 127.0.0.1:8352
+[Proxy Recording  (4a5c:554c)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8355
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8356
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8357
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8358
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8359
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8360
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8361
+[Proxy Recording  (4a5c:34a4)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8362
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8363
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8364
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8365
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8366
+[Proxy Recording  (4a5c:5ac0)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (4a5c:31c4)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8367
+[Proxy Recording.Error (4a5c:31c4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c: 664)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:5b88)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:25e8)] Exception is caught while trying to connect to https://docs.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:6290)] Exception is caught while trying to connect to https://api.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:43bc)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:5540)] Exception is caught while trying to connect to https://docs.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:4eb8)] Exception is caught while trying to connect to https://23112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:4870)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:5644)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8368
+[Proxy Recording.Error (4a5c:35c0)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:4870)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:25e8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5b88)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:43bc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:6290)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5e0c)] Exception is caught while trying to connect to https://vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:4eb8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c: 664)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5540)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5644)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5110)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:4e04)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8369
+[Proxy Recording.Error (4a5c:3a70)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:52a4)] Exception is caught while trying to connect to https://play.google.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:40c8)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:35c0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:3770)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25e8)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (4a5c:5e0c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:4eb8)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (4a5c:5110)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4e04)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8370
+[Proxy Recording.Error (4a5c:3a70)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:52a4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:40c8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:3770)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8371
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8372
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8373
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8374
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8375
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8376
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8377
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8378
+[User action                 ] EndTransactionEvent remove [Proxy Recording.Error (4a5c:26ac)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:2b0c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:1ea8)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:5c6c)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:61ac)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:49a8)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:26ac)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:2860)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:5b1c)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4a5c:46ac)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:4ca0)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:5850)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:6074)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:2bc8)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:4870)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:2b0c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:1ea8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5c6c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:61ac)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4e14)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4a5c:49a8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:26ac)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording.Error (4a5c:605c)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording.Error (4a5c:2860)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5b1c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:46ac)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4ca0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5850)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8379
+[Proxy Recording.Error (4a5c:5d50)] Exception is caught while trying to connect to https://23112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:3548)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:6074)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:613c)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:2bc8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:34d8)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:578c)] Exception is caught while trying to connect to https://im.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:4870)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4af4)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:2fc8)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:53fc)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:29c0)] Exception is caught while trying to connect to https://25112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:3978)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:40e4)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:4e14)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5b88)] Exception is caught while trying to connect to https://im.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:3d58)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:5a18)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:293c)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:31c4)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:5018)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8380
+[Proxy Recording.Error (4a5c:5d50)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:3548)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:613c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:34d8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:578c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4af4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:2fc8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:53fc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:29c0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:3978)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:40e4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5b88)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:3d58)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5a18)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:293c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:31c4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5018)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8381
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8382
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8383
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8384
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8385
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8386
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8387
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8388
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8389
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8390
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8391
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8392
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8393
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8394
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8395
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8396
+[Proxy Recording  (4a5c:3df4)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (4a5c:43bc)] Trying to connect to https://vk.com:443/al_im.php?act=a_group_online_check_status ...
+[Proxy Recording  (4a5c:43bc)] Trying to connect to https://vk.com:443/al_im.php?act=a_group_online_check_status ...
+[Web Request      (4a5c:3df4)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4a5c:3df4)]   (Sid: 26) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4a5c:3df4)]   (Sid: 26) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4a5c:43bc)] Received response of 763 header and 209 body bytes from https://vk.com:443/al_im.php?act=a_group_online_check_status
+[Network Analyzer (4a5c:43bc)]   (Sid: 27) Client -> Server @ : 2034 bytes (SSL)(Service=HTTP)
+[Web Request      (4a5c:43bc)] "POST https://vk.com/al_im.php?act=a_group_online_check_status"   
+[Network Analyzer (4a5c:43bc)]   (Sid: 27) Client -> Server @ : 65 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4a5c:43bc)]   (Sid: 27) Server -> Client : 780 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4a5c:43bc)]   (Sid: 27) Server -> Client : 209 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4a5c:43bc)] Sent 209 bytes to client @ 192.168.228.97:8363
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8401
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8402
+[Proxy Recording.Error (4a5c: 664)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:6290)] Exception is caught while trying to connect to https://vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:1a48)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8403
+[Proxy Recording.Error (4a5c: 664)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:35c0)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:6290)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:1a48)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8404
+[Proxy Recording.Error (4a5c:35c0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8405
+[Proxy Recording.Error (4a5c:52a4)] Exception is caught while trying to connect to https://docs.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:40c8)] Exception is caught while trying to connect to https://docs.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:5110)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:4e04)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:2b0c)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8406
+[Proxy Recording.Error (4a5c:40c8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4e04)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5110)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:6074)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:52a4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:2860)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:3a70)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:2b0c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5540)] Exception is caught while trying to connect to https://ssl.gstatic.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:29c0)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8407
+[Proxy Recording.Error (4a5c:46ac)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:6074)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4ca0)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:5850)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:2860)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:49a8)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:3a70)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5540)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5c6c)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:29c0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8408
+[Proxy Recording.Error (4a5c:5d50)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:46ac)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:40e4)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:5b88)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:4ca0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:6290)] Exception is caught while trying to connect to https://api.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:5850)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5018)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:49a8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5c6c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4e14)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8409
+[Proxy Recording.Error (4a5c:5d50)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:40e4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5b88)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:6290)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:5018)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:4e14)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8410
+[Proxy Recording.Error (4a5c:5110)] Exception is caught while trying to connect to https://24112.ms.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8411
+[Proxy Recording.Error (4a5c:5110)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8412
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8413
+[Proxy Recording.Error (4a5c:31c4)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:3a70)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8414
+[Proxy Recording.Error (4a5c: 664)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4a5c:31c4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:3a70)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8415
+[Proxy Recording.Error (4a5c: 664)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4a5c:29c0)] Exception is caught while trying to connect to https://play.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8417
+[Proxy Recording.Error (4a5c:29c0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8418
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8419
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8422
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8423
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8424
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8425
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8426
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8427
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8429
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8436
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8437
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8438
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8439
+[Proxy Recording  (4a5c:25b0)] Client request from @ 192.168.228.97:8440
+[Proxy Recording  (4a5c:4af4)] Trying to connect to https://docs.google.com:443/spreadsheets/u/0/naLogImpressions?id=1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4&token=AC4w5VjXO0hXh7QNtnfBmdCdZU_4f8IrVg%3A1706714203136&includes_info_params=true&cros_files=false ...
+[Proxy Recording  (4a5c:1ea8)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4/bind?id=1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4&sid=95abbec11481554&token=AC4w5VjXO0hXh7QNtnfBmdCdZU_4f8IrVg%3A1706714203136&includes_info_params=true&cros_files=false&VER=8&lsq=1706706697801&u=17594963083406873953&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=274&smv=125&smb=%5B125%2C%20%5D&cimpl=0&RID=rpc&SID=28D7DB8C0248345A&CI=0&AID=96&TYPE=xmlhttp&zx=sdu1lmgtygax&t=1 ...
+[Proxy Recording  (4a5c:4af4)] Trying to connect to https://docs.google.com:443/spreadsheets/u/0/naLogImpressions?id=1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4&token=AC4w5VjXO0hXh7QNtnfBmdCdZU_4f8IrVg%3A1706714203136&includes_info_params=true&cros_files=false ...
+[Proxy Recording  (4a5c:5e0c)] Trying to connect to https://top-fwz1.mail.ru:443/tracker?_=0.3517093375616165;id=2579437;u=https%3A/vk.com/im%3Fpeers%3Dc194_-131851952;r=https%3A/vk.com/gim221545462%3Fpeers%3D608032540_374479350_410281977_375661387_429874243_341305846_564493908_350124663_495436737_340808943_454111824_479792577;st=1706714193635;s=1536*864;vp=1471*740;touch=0;hds=1.25;sid=e884ba4a1965b700;ver=60.3.0;tz=-180%2FEurope%2FMoscow;ct=10084/10092/10092/10098;gl=d;ni=3.15/4g/50/0/;detect=0;lvid=1706705531555%3A1706714456455%3A14354%3Addab72a2bf6febcf2196546e65333747;visible=true;js=13;e=TS%3A0/1706714198314/0/28388/109726 ...
+[Proxy Recording  (4a5c:2bc8)] Trying to connect to https://queuev4.vk.com:443/im0942?act=a_check&id=174764942&key=98748ef6ad26cf25588e8e725c2c5873b4a4247a698fca9c8e65e398ef5591a08cc291ceeec70280ece45c1b4b43b68b6a7f2f3730966527dcd02c3da4bc27d21ad6eab9cabf5f525f83dd58b9d22edb10c128fa866d3e83c1232ab0ad3ba2498b8ce5482c5a28041c836d9244ee80b68e66712fad17b87a2445d6ce7885ad53&ts=741402310_1969281436_137773151_43687216&wait=25 ...
+[Proxy Recording  (4a5c:1ea8)] Trying to connect to https://docs.google.com:443/spreadsheets/d/1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4/bind?id=1rBO3DPLqCBve_s6oonLK6-8YcnUBY5FMNnY2Xq-fqL4&sid=95abbec11481554&token=AC4w5VjXO0hXh7QNtnfBmdCdZU_4f8IrVg%3A1706714203136&includes_info_params=true&cros_files=false&VER=8&lsq=1706706697801&u=17594963083406873953&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=274&smv=125&smb=%5B125%2C%20%5D&cimpl=0&RID=rpc&SID=28D7DB8C0248345A&CI=0&AID=96&TYPE=xmlhttp&zx=sdu1lmgtygax&t=1 ...
+[Proxy Recording  (4a5c:3770)] Trying to connect to https://23112.ms.vk.com:443/ ...
+[Proxy Recording  (4a5c:3548)] Trying to connect to https://25112.ms.vk.com:443/ ...
+[Proxy Recording  (4a5c:52a4)] Trying to connect to https://24112.ms.vk.com:443/ ...
+[Proxy Recording  (4a5c:5e0c)] Trying to connect to https://top-fwz1.mail.ru:443/tracker?_=0.3517093375616165;id=2579437;u=https%3A/vk.com/im%3Fpeers%3Dc194_-131851952;r=https%3A/vk.com/gim221545462%3Fpeers%3D608032540_374479350_410281977_375661387_429874243_341305846_564493908_350124663_495436737_340808943_454111824_479792577;st=1706714193635;s=1536*864;vp=1471*740;touch=0;hds=1.25;sid=e884ba4a1965b700;ver=60.3.0;tz=-180%2FEurope%2FMoscow;ct=10084/10092/10092/10098;gl=d;ni=3.15/4g/50/0/;detect=0;lvid=1706705531555%3A1706714456455%3A14354%3Addab72a2bf6febcf2196546e65333747;visible=true;js=13;e=TS%3A0/1706714198314/0/28388/109726 ...
+[Proxy Recording  (4a5c:2bc8)] Trying to connect to https://queuev4.vk.com:443/im0942?act=a_check&id=174764942&key=98748ef6ad26cf25588e8e725c2c5873b4a4247a698fca9c8e65e398ef5591a08cc291ceeec70280ece45c1b4b43b68b6a7f2f3730966527dcd02c3da4bc27d21ad6eab9cabf5f525f83dd58b9d22edb10c128fa866d3e83c1232ab0ad3ba2498b8ce5482c5a28041c836d9244ee80b68e66712fad17b87a2445d6ce7885ad53&ts=741402310_1969281436_137773151_43687216&wait=25 ...
+[Proxy Recording  (4a5c:3770)] Trying to connect to https://23112.ms.vk.com:443/ ...
+[Proxy Recording  (4a5c:3130)] Received response of 430 header and 30 body bytes from https://queuev4.vk.com:443/im0942?act=a_check&key=9f6aa7828618647b5842311124e6fe0d2360e746588330fae49c0ef8944a5506&id=174764942&ts=222286608&wait=25

@@ -1,0 +1,1882 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "upgrade",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-version",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-protocol",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-key",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-websocket-extensions",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 21,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "янв-31-2024",
+    "RecordingDuration": 117359,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1706709679,
+    "RecordingType": "Proxy",
+    "TotalBytesReceived": 52445,
+    "TotalBytesSent": 15368,
+    "TotalRequests": 21,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "yandex.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.0",
+          "IP": "[2a02:6b8:a::a]",
+          "IncludeInScript": false,
+          "Name": "yandex.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 649,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://yandex.ru/clck/safeclick/data=AxbTlK7nwx54N-ZGtgHkWrkRlcB-ZFZc_wKCMHwKsbOWqeknuG8JB8HVARpWECzR2nYI1zhFkMA3UqcEZOM5sdKVLDKtcAdJVmn7bIGuqihgThJ_rvoDJc58V_iMR1ciLWX-4BYwqjgTU6xw3tUrWNkq5VS7_nq9B2w7-L9sRdi3u2x5sifNGY7LkuZwDZr8btVRanveg8Pf37Lch_C4HQNVVMXQx4unCtp-y29AM8iXQGD1z61xG2zln1L09Q1AVl5jM9a5Ac6ICkG5gHW0G1Ld2f6lpPkKEef2x3ShzgtXY6AYiRzIMm_r0TPstbtIi4lH25sEa36X-n1Fbl75TSDQPGjbmC17mdqRsvxHS_auDjpil1oPs4M1WZDO5f47OUQx3XlnpJg5gRVMx3Y3UYdknDMDmuaif7rWSFLxSKa3l1qDaPhKmAmwaeg1-dvBgRZTZPFp85HY69sKmm-287rHCmexoJsEbQo9wrh2ENWp1IAgQ5yYaY0L9qGRbxR14jqmWFM43jkMST-jjAy3uAuZxdYn9-fxCy41sI05m8vy3UgWvFPKG8euV5cgg6MHMJg2DUmHxANsDP-GFFYtfecfak3D3uxi6Ug1chxKbsvvRKZlTw3WexfN5h9-Y4Gr_0vWskET7hB24VYkHZJpLuygkf9pUhjbkhrIV64ofsD9H4dc_eshgI1fupypDYjqq71pKkdHgGTKBXy7J32BmPvocz3Bu0KUJJxYna8YzfnnXmNWiAdwDQ0PPWh4gdBBAQSMz2rjTIW2tSlUipp0_sm3T-QqjZOjuN0B_bjH0BSo7CfXEcTTKKRKZHEs66I9NT8KYtQ2bdbFobdO1acUGyUZ2ZYGZMqsp_eSHFO4C6OVBagObZGw5aPiQk_9h7YEIPZroI582tjSMldADsBlcjc-peWyu7iQMgXH4NOxMar1pS4yaGXFq03Ap-g0pvg77M3ljF5VVJItFjaNv2_Xxt7wuTwxnQCHeNyvrD8ekKtn5hOMAlxZPu9mWZfAXFrLMkte9wD4JMzOCoeoSOHJNAdYxnMVQKa3H4--fW4QQl0HyZx5TUEWlYr785gYpACxGKYGRW_QLG1CkN4lcrP8cScVfaZRXs2fFuZA7-8kUSDCt-ELd-Jug5U3I4WAykwVtuYRc9PEHJZiHFLQtaAtVljYBDkEQpEi9P2nO0n9pEihdiaK0OyQO2pp53FAI26kTkftzJCvHtAKtX9P1siiHS-G-q2zgip7VAjwG2FeI9yNbAX95aqBe2Lh-iDWZiYdAPq5hCHLVW_RBuTIHnZ-VtPc-ag2JTRMLVfIOh7dQsnVR2F6-1BNMFCJCHfeIDWVh5cpcxAV0FZo0h18GeeVqv_kNJrpkIz-fwQpUe6gXz531fL0D04HjPL5KeV9oDZql6MwlFWfSBWPX4aAVZH6o5d94s5DRCpyHvEtvtAxWnpTycM3EQrdRKvrmUTM_DG_nYEE_4KJuJQfk6X_H34OjoipkWJdb8mcnwYC0va_DHI1jyyXQh8USQWWy4681jhn7l60lSO4yrBvjyJUX-wAIEmWuTQ9vy_l7cf-4eWvdOZWx1vbRyGAwuILdkOLb-K8JToKwwxf1L3gkD6LnX3Jdw,,/sign=272c8856e3c29bc2a7d4d72f7cd7d511/keyno=WEB_0/ref=mag21uLwzH-iqa6a9U6fw6sBTXI61vrcpypr71MF9Wcokmiq_-5S4ctVC0f0HSCcU8LM6tCxxc4wedtGe4U8NVUt9a431dsHvOG_3_-NRBQ,/installation_info=eyJnZW8iOiJzYXMiLCJjdHlwZSI6InByb2QiLCJ2ZXJ0aWNhbCI6IldFQiJ9/events=%5B%7B%22event%22%3A%22tech%22%2C%22id%22%3A%220_82i40%22%2C%22type%22%3A%22mousetracking%22%2C%22cts%22%3A1706709791042%2C%22data%22%3A%7B%22no%22%3A9%2C%22blob%22%3A%22aapBadpK%22%7D%2C%22event-id%22%3A%22ls1uxyyq26%22%2C%22service%22%3A%22web%22%2C%22hdtime%22%3A479100.5%2C%22mc%22%3A2.584962500721156%7D%5D/primary_reqid=1706709311957218-9279016532908835872-balancer-l7leveler-kubr-yp-vla-57-BAL-8840/*https://yandex.ru/search/?text=parametrs+list+load+runner&clid=2270455&suggest_reqid=1565874957787015111782792471980&win=472&ncrnd=33644"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.208.123",
+          "IncludeInScript": false,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 552,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/65baea3c-16c3-404f-8362-b8528b199b7b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 543,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/3e17fae6-00e5-492c-886c-91e956139149"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 530,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/4e7dd9ad-a29a-4cff-8427-49915d37056f"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 513,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/65268ab6-4bec-498a-9b09-975ebe12491c"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 504,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/db4bd9dc-c3ea-49a8-85ae-e24d0654003a"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 491,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/7d1f8aba-9bfe-47f0-83ea-dcd2525a61c1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 478,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/ac0755fe-f179-4fad-b306-d005f0a54876"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 465,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/8f00b07e-cd29-41cb-ab2c-2640abb8626b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 452,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/fb332525-588f-4a07-92da-30bbf5e7b146"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 443,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/6ff27259-8216-45c5-ad37-c301a19eaa2a"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 430,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/cfba506f-ccc7-4c57-b601-5746c625256d"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 421,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/ad5d40f1-88e3-4ae9-a49e-192e8752deaf"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 408,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/f2a70aec-f5ec-48c3-a74f-b7eab4b33aea"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 395,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/6dd3a1b9-38d2-4f97-9599-7667fffc4c7d"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 386,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/e5d4be94-e70d-4a0b-ac78-11fedd87a6bc"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 304,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/6017a762-8232-4406-91ff-a13af1fedc7e"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 299,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/d0f29e22-17b9-4790-a90c-5745647ce71a"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 289,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/c4012f9b-8514-4e41-9b9f-f957b27164bc"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 260,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/ed7ab8ab-e4c1-4365-b572-cae3a5f552d7"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 195,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/7ae109fb-886b-4d67-b7b5-5d1a45ea1f7b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 185,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/7440a070-b17d-409a-81dd-7b459a12f614"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 170,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/1daf2ce6-f527-47b4-bc14-0037c3424619"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 160,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/3cc30d10-3a0c-4451-a708-e1c516f9e6ac"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 150,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/e952a3e5-2f70-4a37-9a27-99cb1713600e"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 140,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/9f199781-e584-4ec7-b1dd-cee8b9566c30"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 125,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/ffbd0090-0657-47f1-ad32-0b04fe712f78"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 106,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/7be2445e-810d-49a4-8105-34287dc831f1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 101,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/d51abbab-1dc6-4462-b6a0-e4f2bc40ee9b"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 91,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/2861b720-af80-45bd-8777-dfad13789b65"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 86,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/5a9e0d6f-f93a-4688-9c7a-5929cc75ab7d"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.244.181.201",
+          "IncludeInScript": false,
+          "Name": "aus5.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 16,
+              "EventId": 65,
+              "HttpStatus": 200,
+              "Size": 565,
+              "URL": "https://aus5.mozilla.org/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.3007%2520(x64)/ISET%3ASSE4_2%2CMEM%3A7104/default/default/update.xml?force=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.158.37",
+          "IncludeInScript": false,
+          "Name": "tracking-protection.cdn.mozilla.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 235,
+              "HttpStatus": 200,
+              "Size": 8853,
+              "URL": "https://tracking-protection.cdn.mozilla.net/content-email-track-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 222,
+              "HttpStatus": 200,
+              "Size": 6965,
+              "URL": "https://tracking-protection.cdn.mozilla.net/base-email-track-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 209,
+              "HttpStatus": 200,
+              "Size": 244,
+              "URL": "https://tracking-protection.cdn.mozilla.net/social-tracking-protection-twitter-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 200,
+              "HttpStatus": 200,
+              "Size": 148,
+              "URL": "https://tracking-protection.cdn.mozilla.net/social-tracking-protection-linkedin-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 190,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://tracking-protection.cdn.mozilla.net/social-tracking-protection-facebook-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 180,
+              "HttpStatus": 200,
+              "Size": 2293,
+              "URL": "https://tracking-protection.cdn.mozilla.net/base-cryptomining-track-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 175,
+              "HttpStatus": 200,
+              "Size": 3989,
+              "URL": "https://tracking-protection.cdn.mozilla.net/base-fingerprinting-track-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 165,
+              "HttpStatus": 200,
+              "Size": 1496696,
+              "URL": "https://tracking-protection.cdn.mozilla.net/google-trackwhite-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 155,
+              "HttpStatus": 200,
+              "Size": 421079,
+              "URL": "https://tracking-protection.cdn.mozilla.net/mozstd-trackwhite-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 145,
+              "HttpStatus": 200,
+              "Size": 15158,
+              "URL": "https://tracking-protection.cdn.mozilla.net/content-track-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 135,
+              "HttpStatus": 200,
+              "Size": 11606,
+              "URL": "https://tracking-protection.cdn.mozilla.net/analytics-track-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 130,
+              "HttpStatus": 200,
+              "Size": 2197,
+              "URL": "https://tracking-protection.cdn.mozilla.net/social-track-digest256/121.0/1700246959"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 120,
+              "HttpStatus": 200,
+              "Size": 60758,
+              "URL": "https://tracking-protection.cdn.mozilla.net/ads-track-digest256/121.0/1700246959"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:1901:0:92a9::]",
+          "IncludeInScript": false,
+          "Name": "content-signature-2.cdn.mozilla.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 32,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.216.128.175",
+          "IncludeInScript": false,
+          "Name": "shavar.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 96,
+              "HttpStatus": 200,
+              "Size": 1575,
+              "URL": "https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=121.0&pver=2.2"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.243.93",
+          "IncludeInScript": false,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 637,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 314,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 111,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 82,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 61,
+              "HttpStatus": 400,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.149.100.209",
+          "IncludeInScript": false,
+          "Name": "firefox.settings.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 70,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.117.237.239",
+          "IncludeInScript": false,
+          "Name": "contile.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 23,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://contile.services.mozilla.com/v1/tiles"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "ispringlearn.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "178.57.78.187",
+          "IncludeInScript": false,
+          "Name": "ibs-training.ispringlearn.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 710,
+              "HttpStatus": 200,
+              "Size": 200,
+              "URL": "https://ibs-training.ispringlearn.ru/api/content/info/9837/get_course_info/status?"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 705,
+              "HttpStatus": 200,
+              "Size": 4188,
+              "URL": "https://ibs-training.ispringlearn.ru/content/info/9837/get_learning_path_structure"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a00:1450:4010:c05::5e]",
+          "IncludeInScript": false,
+          "Name": "ssl.gstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 700,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://ssl.gstatic.com/docs/common/netcheck.gif?zx=trvykliep168"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a00:1450:4010:c07::5f]",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 15,
+              "EventId": 36,
+              "HttpStatus": 200,
+              "Size": 28957,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARCtiBUaAhgFNK9zaCICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEI7lDRoCGAWTVP3PIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQxNwNGgIYBbgAEqciAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARDFqw4aAhgF1F3ksiICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgFrYvPTCICIAIoAQ=="
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a00:1450:4010:c01::6a]",
+          "IncludeInScript": false,
+          "Name": "www.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 671,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://www.google.com/images/cleardot.gif?zx=px2vdexylvp9"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 309,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://www.google.com/images/cleardot.gif?zx=dfh3ra4igh1s"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a00:1450:4010:c0b::c2]",
+          "IncludeInScript": false,
+          "Name": "docs.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 654,
+              "HttpStatus": 401,
+              "Size": 73,
+              "URL": "https://docs.google.com/spreadsheets/d/1S_wTEMpNb3I13hPKS5Grvi41OxA3TDXiSGw9aPRyjZ0/test?id=1S_wTEMpNb3I13hPKS5Grvi41OxA3TDXiSGw9aPRyjZ0&sid=71df5932bd9183cc&token=AC4w5VjGWLhN_D6-nW7PPyXcoCf2gtUOIg%3A1706688988789&includes_info_params=true&cros_files=false&VER=8&lsq=1706688988070&u=17594963083406873953&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=20801&smv=125&smb=%5B125%2C%20%5D&cimpl=1&MODE=init&zx=c0idfcj1u0py&t=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 294,
+              "HttpStatus": 401,
+              "Size": 74,
+              "URL": "https://docs.google.com/spreadsheets/d/1S_wTEMpNb3I13hPKS5Grvi41OxA3TDXiSGw9aPRyjZ0/test?id=1S_wTEMpNb3I13hPKS5Grvi41OxA3TDXiSGw9aPRyjZ0&sid=71df5932bd9183cc&token=AC4w5VjGWLhN_D6-nW7PPyXcoCf2gtUOIg%3A1706688988789&includes_info_params=true&cros_files=false&VER=8&lsq=1706688988070&u=17594963083406873953&vc=1&c=1&w=1&flr=0&gsi=0&ssfi=20741&smv=125&smb=%5B125%2C%20%5D&cimpl=1&MODE=init&zx=y1rohgj5d0af&t=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2a00:1450:4010:c07::54]",
+          "IncludeInScript": false,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 115,
+              "HttpStatus": 401,
+              "Size": 65,
+              "URL": "https://accounts.google.com/RotateCookies"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "getpocket.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "54.80.28.244",
+          "IncludeInScript": false,
+          "Name": "spocs.getpocket.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 27,
+              "HttpStatus": 200,
+              "Size": 394,
+              "URL": "https://spocs.getpocket.com/spocs"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:1901:0:38d7::]",
+          "IncludeInScript": false,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 357,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 353,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 10,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 2,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "91.105.192.100",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "91.105.192.100",
+          "IncludeInScript": false,
+          "Name": "91.105.192.100",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 691,
+              "HttpStatus": 200,
+              "Size": 100,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 687,
+              "HttpStatus": 200,
+              "Size": 180,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 683,
+              "HttpStatus": 200,
+              "Size": 124,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 679,
+              "HttpStatus": 200,
+              "Size": 180,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 675,
+              "HttpStatus": 200,
+              "Size": 200,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 666,
+              "HttpStatus": 200,
+              "Size": 128,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 662,
+              "HttpStatus": 200,
+              "Size": 132,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 658,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 644,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 640,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 628,
+              "HttpStatus": 200,
+              "Size": 208,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 624,
+              "HttpStatus": 200,
+              "Size": 192,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 620,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 616,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 612,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 349,
+              "HttpStatus": 200,
+              "Size": 172,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 345,
+              "HttpStatus": 200,
+              "Size": 152,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 341,
+              "HttpStatus": 200,
+              "Size": 112,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 337,
+              "HttpStatus": 200,
+              "Size": 184,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 333,
+              "HttpStatus": 200,
+              "Size": 164,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 325,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 321,
+              "HttpStatus": 200,
+              "Size": 116,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 317,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 284,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 280,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 276,
+              "HttpStatus": 200,
+              "Size": 116,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 272,
+              "HttpStatus": 200,
+              "Size": 132,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 268,
+              "HttpStatus": 200,
+              "Size": 92,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 264,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 255,
+              "HttpStatus": 200,
+              "Size": 192,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 251,
+              "HttpStatus": 200,
+              "Size": 176,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 247,
+              "HttpStatus": 200,
+              "Size": 128,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 243,
+              "HttpStatus": 200,
+              "Size": 84,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 239,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 77,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://91.105.192.100/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 73,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "http://91.105.192.100/api"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "149.154.167.222",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "149.154.167.222",
+          "IncludeInScript": false,
+          "Name": "149.154.167.222",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 608,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 604,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 600,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 596,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 592,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 588,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 584,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 580,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 576,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 572,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 568,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 564,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 560,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 556,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 547,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 538,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 534,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 525,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 517,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 508,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 499,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 495,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 486,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 482,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 473,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 469,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 460,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 456,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 447,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 438,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 434,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 425,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 416,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 412,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 403,
+              "HttpStatus": 200,
+              "Size": 88,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 399,
+              "HttpStatus": 200,
+              "Size": 131176,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 390,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 381,
+              "HttpStatus": 200,
+              "Size": 131288,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 377,
+              "HttpStatus": 200,
+              "Size": 216,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 373,
+              "HttpStatus": 200,
+              "Size": 216,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 369,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 365,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 361,
+              "HttpStatus": 200,
+              "Size": 104,
+              "URL": "http://149.154.167.222/api"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 15,
+              "EventId": 329,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "http://149.154.167.222/api"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "127.0.0.1",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "127.0.0.1",
+          "IncludeInScript": true,
+          "Name": "127.0.0.1",
+          "Port": 8090,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 695,
+              "HttpStatus": 200,
+              "Size": 2425,
+              "URL": "http://127.0.0.1:8090/WebTours/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 632,
+              "HttpStatus": 200,
+              "Size": 2732,
+              "URL": "http://127.0.0.1:8090/WebTours/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 521,
+              "HttpStatus": 200,
+              "Size": 2369,
+              "URL": "http://127.0.0.1:8090/WebTours/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 230,
+              "HttpStatus": 200,
+              "Size": 688,
+              "URL": "http://127.0.0.1:8090/WebTours/images/home.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 226,
+              "HttpStatus": 200,
+              "Size": 726,
+              "URL": "http://127.0.0.1:8090/WebTours/images/in_flights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 217,
+              "HttpStatus": 200,
+              "Size": 4182,
+              "URL": "http://127.0.0.1:8090/WebTours/reservations.pl?page=welcome"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 213,
+              "HttpStatus": 200,
+              "Size": 1476,
+              "URL": "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=flights"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 204,
+              "HttpStatus": 200,
+              "Size": 560,
+              "URL": "http://127.0.0.1:8090/WebTours/welcome.pl?page=search"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 733,
+              "URL": "http://127.0.0.1:8090/WebTours/images/itinerary.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 52,
+              "HttpStatus": 200,
+              "Size": 726,
+              "URL": "http://127.0.0.1:8090/WebTours/images/flights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 48,
+              "HttpStatus": 200,
+              "Size": 911,
+              "URL": "http://127.0.0.1:8090/WebTours/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 44,
+              "HttpStatus": 200,
+              "Size": 1476,
+              "URL": "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 40,
+              "HttpStatus": 200,
+              "Size": 437,
+              "URL": "http://127.0.0.1:8090/WebTours/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 18,
+              "HttpStatus": 200,
+              "Size": 29614,
+              "URL": "http://127.0.0.1:8090/WebTours/images/fonJM.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 14,
+              "HttpStatus": 200,
+              "Size": 2760,
+              "URL": "http://127.0.0.1:8090/WebTours/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 6,
+              "HttpStatus": 200,
+              "Size": 630,
+              "URL": "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 8
+}

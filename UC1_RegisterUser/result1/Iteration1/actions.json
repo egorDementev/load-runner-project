@@ -1,0 +1,55 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t1.inf",
+                "time": 1706771108401
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: login.pl",
+                "infFile": "t2.inf",
+                "time": 1706771108875
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: login.pl_2",
+                "infFile": "t3.inf",
+                "time": 1706771109301
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "go_to_welcome_page",
+                "rawStartTime": 1706771107595,
+                "rawEndTime": 1706771108472,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1722090244293213
+            },
+            {
+                "transactionName": "go_to_registrating_menu",
+                "rawStartTime": 1706771108488,
+                "rawEndTime": 1706771108910,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011187076568603516
+            },
+            {
+                "transactionName": "registrating",
+                "rawStartTime": 1706771108925,
+                "rawEndTime": 1706771109303,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011677026748657227
+            },
+            {
+                "transactionName": "UC1_RegisterUser",
+                "rawStartTime": 1706771107579,
+                "rawEndTime": 1706771109303,
+                "thinkTime": 0.0,
+                "wastedTime": 0.19507312774658204
+            }
+        ]
+    }
+]
