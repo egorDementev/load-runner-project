@@ -49,6 +49,8 @@ Action()
 		lr_end_transaction("go_to_welcome_page", LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 	
 		lr_start_transaction("login");
 	
@@ -80,6 +82,8 @@ Action()
 		lr_end_transaction("login",LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 	
 		lr_start_transaction("go_to_flights");
 	
@@ -103,6 +107,8 @@ Action()
 		lr_end_transaction("go_to_flights",LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 	
 		lr_start_transaction("input_data_to_find_tickets");
 	
@@ -185,6 +191,8 @@ Action()
 		lr_end_transaction("choose_ticket",LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 	
 		lr_start_transaction("payment");
 	
@@ -222,6 +230,8 @@ Action()
 		lr_end_transaction("payment",LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 		
 		lr_start_transaction("logout");
 	

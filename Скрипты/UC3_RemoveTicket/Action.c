@@ -51,14 +51,14 @@ Action()
 		lr_end_transaction("go_to_welcome_page", LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 	
 		lr_start_transaction("login");
 	
 			web_add_header("Origin", "http://127.0.0.1:8090");
 		
 			web_add_auto_header("Sec-Fetch-User", "?1");
-		
-			lr_think_time(14);
 		
 			web_reg_find("Text=Error","Fail=Found",LAST);
 			web_reg_find("Text=Welcome, <b>{username}</b>, to the Web Tours reservation pages.", LAST);
@@ -84,12 +84,12 @@ Action()
 		lr_end_transaction("login",LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 	
 		lr_start_transaction("go_to_my_tickets");
 	
 			web_revert_auto_header("Sec-Fetch-User");
-		
-			lr_think_time(7);
 			
 			web_reg_find("Text=No flights have been reserved.","Fail=Found",LAST);
 			
@@ -118,14 +118,14 @@ Action()
 		lr_end_transaction("go_to_my_tickets",LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 	
 		lr_start_transaction("removing_ticket");
 	
 			web_add_header("Origin", "http://127.0.0.1:8090");
 		
 			web_add_header("Sec-Fetch-User", "?1");
-		
-			lr_think_time(6);
 			
 			if (atoi(lr_eval_string("{FlightIDs_count}")) >= 3)
 				random = rand() % 3 + 1;
@@ -181,6 +181,8 @@ Action()
 		lr_end_transaction("removing_ticket",LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 		
 		lr_start_transaction("logout");
 	

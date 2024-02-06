@@ -44,8 +44,10 @@ Action()
 			web_add_cookie("MSO=SID&{SID}&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; DOMAIN=127.0.0.1");
 	
 		lr_end_transaction("go_to_welcome_page", LR_AUTO);
+
 		
-	
+		lr_think_time(5);
+
 	
 		lr_start_transaction("login");
 	
@@ -76,7 +78,8 @@ Action()
 	
 		lr_end_transaction("login",LR_AUTO);
 		
-		
+
+		lr_think_time(5);
 		
 	
 		lr_start_transaction("go_to_my_tickets");
@@ -102,6 +105,8 @@ Action()
 		lr_end_transaction("go_to_my_tickets",LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 		
 		lr_start_transaction("logout");
 	

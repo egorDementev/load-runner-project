@@ -42,6 +42,8 @@ Action()
 		lr_end_transaction("go_to_welcome_page", LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 		
 		lr_start_transaction("go_to_registrating_menu");
 	
@@ -64,6 +66,8 @@ Action()
 		lr_end_transaction("go_to_registrating_menu", LR_AUTO);
 	
 		
+		lr_think_time(5);
+
 		
 		lr_start_transaction("registrating");
 	
@@ -102,6 +106,7 @@ Action()
 		lr_end_transaction("registrating", LR_AUTO);
 		
 		
+		lr_think_time(5);
 		
 		
 		lr_start_transaction("go_to_menu");
@@ -121,6 +126,8 @@ Action()
 		lr_end_transaction("go_to_menu", LR_AUTO);
 		
 		
+		lr_think_time(5);
+
 		
 		lr_start_transaction("logout");
 	
