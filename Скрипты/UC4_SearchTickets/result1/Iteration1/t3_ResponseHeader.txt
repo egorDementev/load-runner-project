@@ -1,11 +1,11 @@
 HTTP/1.1 200 Ok
 Server: Xitami
-Date: Sat, 03 Feb 2024 11:59:34 GMT
+Date: Tue, 06 Feb 2024 13:10:42 GMT
 Cache-control: no-cache
 Expires: 0
 Content-length: 437
 Content-type: text/html; charset=ISO-8859-1
-Date: Sat, 03 Feb 2024 11:59:34 GMT
+Date: Tue, 06 Feb 2024 13:10:42 GMT
 Expires: 5s
-Set-cookie: MTUserInfo=firstName&James&address2&WC2E7BN&username&007&hash&55&lastName&Bond%0A&address1&45%20Wellington%20St%2C%20London%2C%20United%20Kingdom&creditCard&&expDate&%0A; path=/
+Set-cookie: MTUserInfo=firstName&name3&address2&city3&username&user3&hash&115&lastName&lastname3%0A&address1&street3&creditCard&&expDate&%0A; path=/
 

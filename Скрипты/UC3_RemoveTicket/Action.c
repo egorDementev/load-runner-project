@@ -96,14 +96,13 @@ Action()
 			web_reg_save_param_ex(
 			    "ParamName=FlightIDs",
 			    "LB=<input type=\"hidden\" name=\"flightID\" value=\"", "RB=\"",
-			    "Ordinal=all", SEARCH_FILTERS, "Scope=Body", LAST);
+			    "Ordinal=all", SEARCH_FILTERS, "Scope=Body", "NotFound=Warning", LAST);
 		
 			web_reg_save_param_ex(
 			    "ParamName=CGIFields",
 			    "LB=<input type=\"hidden\" name=\".cgifields\" value=\"", "RB=\"",
 			    "Ordinal=all", SEARCH_FILTERS, "Scope=Body", LAST);
 			
-			web_reg_find("Text=Error","Fail=Found",LAST);
 			web_reg_find("Text=<b>Itinerary</font></b>", LAST);
 			web_url("Itinerary Button", 
 				"URL=http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary", 

@@ -2,14 +2,14 @@
 RequestBodyFile=t3_RequestBody.txt
 SaveSnapshotResources=1
 RequestHeaderFile=t3_RequestHeader.txt
-RawStepStartTime=1706961574099
+RawStepStartTime=1707225042556
 ContentType=text/html
 FrameIndex2=0.0
 RawStepName=login.pl
 FrameIndex3=0.1
 ResponseHeaderFile=t3_ResponseHeader.txt
 UseFrameIndex=1
-RawStepEndTime=1706961574698
+RawStepEndTime=1707225043095
 SnapshotXmlFile=snapshot_2.xml
 Total=9
 URL1=http://127.0.0.1:8090/WebTours/login.pl

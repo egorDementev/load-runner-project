@@ -13,6 +13,6 @@ Accept-Language: ru-RU,en,*
 Accept: */*
 Connection: Keep-Alive
 Host: 127.0.0.1:8090
-Cookie: MSO=SID&1706771107&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
-Content-Length: 146
+Cookie: MSO=SID&1707226673&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Content-Length: 167
 

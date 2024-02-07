@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\LoadRunner\LRProjects\UC4_SearchTickets
+-ID:\LoadRunner\LRProjects\Скрипты\Скрипты\UC4_SearchTickets
 -ID:\LoadRunner\include
--ed:\loadrunner\lrprojects\uc4_searchtickets\\logfile.log
-d:\loadrunner\lrprojects\uc4_searchtickets\\combined_UC4_SearchTickets.c
-d:\loadrunner\lrprojects\uc4_searchtickets\\pre_cci.c
+-ed:\loadrunner\lrprojects\скрипты\скрипты\uc4_searchtickets\\logfile.log
+d:\loadrunner\lrprojects\скрипты\скрипты\uc4_searchtickets\\combined_UC4_SearchTickets.c
+d:\loadrunner\lrprojects\скрипты\скрипты\uc4_searchtickets\\pre_cci.c

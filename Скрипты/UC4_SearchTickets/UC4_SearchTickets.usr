@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC4_SearchTickets__*delimiter*__go_to_welcome_page__*delimiter*__login__*delimiter*__go_to_flights__*delimiter*__input_data_to_find_tickets__*delimiter*__logout"
+Order="UC4_SearchTickets__*delimiter*__go_to_welcome_page__*delimiter*__login__*delimiter*__go_to_flights__*delimiter*__input_data_to_find_tickets__*delimiter*__choose_ticket__*delimiter*__go_to_my_tickets"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -64,4 +64,5 @@ go_to_welcome_page=
 login=
 go_to_flights=
 input_data_to_find_tickets=
-logout=
+choose_ticket=
+go_to_my_tickets=
