@@ -1,0 +1,576 @@
+[API Trapper      (21728:29040)] Recording in 32-bit mode: D:\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (4bbc:2a1c8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4bbc:2a1c8)] Load Network Traffic Analyzers:
+[Network Analyzer (4bbc:2a1c8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (4bbc:2a1c8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (4bbc:2a1c8)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (4bbc:2a1c8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (4bbc:2a1c8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (4bbc:2a1c8)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (4bbc:2a1c8)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (4bbc:2a1c8)] Started proxy on port 8888 listening IP 192.168.228.97, 127.0.0.1, in synchronous mode
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64101
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64102
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64103
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64112
+[Proxy Recording  (4bbc:2ab54)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64113
+[Proxy Recording  (4bbc:2ab54)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64114
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64115
+[Proxy Recording  (4bbc:2ab54)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Web Request      (4bbc:2ab54)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (4bbc:2ab54)]   (Sid:  1) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2ab54)]   (Sid:  1) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2ab54)]   (Sid:  1) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2ab54)] Sent 90 bytes to client @ 127.0.0.1:64112
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64118
+[Proxy Recording  (4bbc:2ab54)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4bbc:2ab54)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4bbc:2ab54)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (4bbc:2ab54)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64120
+[Proxy Recording  (4bbc:25aac)] Trying to connect to http://127.0.0.1:8090/WebTours/ ...
+[Network Analyzer (4bbc:2ab54)]   (Sid:  2) Client -> Server @ : 312 bytes (Service=HTTP)
+[Proxy Recording  (4bbc:25aac)] Trying to connect to http://127.0.0.1:8090/WebTours/ ...
+[Network Analyzer (4bbc:2ab54)]   (Sid:  2) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2ab54)]   (Sid:  2) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2ab54)] Sent 8 bytes to client @ 127.0.0.1:64118
+[Proxy Recording  (4bbc:25aac)] Received response of 147 header and 312 body bytes from http://127.0.0.1:8090/WebTours/
+[Web Request      (4bbc:25aac)] "GET http://127.0.0.1:8090/WebTours/"   
+[Network Analyzer (4bbc:25aac)]   (Sid:  3) Client -> Server @ : 472 bytes (Service=HTTP)
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64123
+[Network Analyzer (4bbc:25aac)]   (Sid:  3) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:25aac)]   (Sid:  3) Server -> Client : 312 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:25aac)] Sent 312 bytes to client @ 127.0.0.1:64120
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64125
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64128
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64129
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64131
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64132
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64133
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64135
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64136
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64137
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64138
+[Proxy Recording  (4bbc:2b30c)] Trying to connect to http://127.0.0.1:8090/WebTours/header.html ...
+[Proxy Recording  (4bbc:2b30c)] Trying to connect to http://127.0.0.1:8090/WebTours/header.html ...
+[Proxy Recording  (4bbc:2b30c)] Received response of 99 header and 0 body bytes from http://127.0.0.1:8090/WebTours/header.html
+[Web Request      (4bbc:2b30c)] "GET http://127.0.0.1:8090/WebTours/header.html"   
+[Network Analyzer (4bbc:2b30c)]   (Sid:  4) Client -> Server @ : 535 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2b30c)]   (Sid:  4) Server -> Client : 126 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2b30c)] Sent 0 bytes to client @ 127.0.0.1:64128
+[Proxy Recording  (4bbc:2b30c)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true ...
+[Proxy Recording  (4bbc:2b30c)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true ...
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64139
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64140
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64141
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64142
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64143
+[Proxy Recording  (4bbc:2b30c)] Received response of 349 header and 630 body bytes from http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true
+[Web Request      (4bbc:2b30c)] "GET http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"   
+[Network Analyzer (4bbc:2b30c)]   (Sid:  5) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2b30c)]   (Sid:  5) Server -> Client : 366 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2b30c)]   (Sid:  5) Server -> Client : 630 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2b30c)] Sent 630 bytes to client @ 127.0.0.1:64129
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64144
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64145
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64146
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64147
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64148
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64149
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64150
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64151
+[Proxy Recording  (4bbc:26a8c)] Trying to connect to http://127.0.0.1:8090/WebTours/images/jmeter_logo.png ...
+[Proxy Recording  (4bbc:2b81c)] Trying to connect to http://127.0.0.1:8090/WebTours/images/webtours.png ...
+[Proxy Recording  (4bbc:26a8c)] Trying to connect to http://127.0.0.1:8090/WebTours/images/jmeter_logo.png ...
+[Proxy Recording  (4bbc:2b81c)] Trying to connect to http://127.0.0.1:8090/WebTours/images/webtours.png ...
+[Proxy Recording  (4bbc:26a8c)] Received response of 148 header and 2522 body bytes from http://127.0.0.1:8090/WebTours/images/jmeter_logo.png
+[Proxy Recording  (4bbc:2b81c)] Received response of 147 header and 818 body bytes from http://127.0.0.1:8090/WebTours/images/webtours.png
+[Web Request      (4bbc:26a8c)] "GET http://127.0.0.1:8090/WebTours/images/jmeter_logo.png"   
+[Network Analyzer (4bbc:26a8c)]   (Sid:  6) Client -> Server @ : 416 bytes (Service=HTTP)
+[Network Analyzer (4bbc:26a8c)]   (Sid:  6) Server -> Client : 165 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:26a8c)]   (Sid:  6) Server -> Client : 2522 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:26a8c)] Sent 2522 bytes to client @ 127.0.0.1:64139
+[Proxy Recording  (4bbc:26a8c)] Trying to connect to http://127.0.0.1:8090/WebTours/images/in_home.gif ...
+[Proxy Recording  (4bbc:26a8c)] Trying to connect to http://127.0.0.1:8090/WebTours/images/in_home.gif ...
+[Proxy Recording  (4bbc:26a8c)] Received response of 147 header and 688 body bytes from http://127.0.0.1:8090/WebTours/images/in_home.gif
+[Web Request      (4bbc:2b81c)] "GET http://127.0.0.1:8090/WebTours/images/webtours.png"   
+[Network Analyzer (4bbc:2b81c)]   (Sid:  7) Client -> Server @ : 413 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2b81c)]   (Sid:  7) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2b81c)]   (Sid:  7) Server -> Client : 818 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2b81c)] Sent 818 bytes to client @ 127.0.0.1:64140
+[Proxy Recording  (4bbc:2b81c)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?in=home ...
+[Proxy Recording  (4bbc:2b81c)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?in=home ...
+[Web Request      (4bbc:26a8c)] "GET http://127.0.0.1:8090/WebTours/images/in_home.gif"   
+[Network Analyzer (4bbc:26a8c)]   (Sid:  8) Client -> Server @ : 412 bytes (Service=HTTP)
+[Network Analyzer (4bbc:26a8c)]   (Sid:  8) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:26a8c)]   (Sid:  8) Server -> Client : 688 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:26a8c)] Sent 688 bytes to client @ 127.0.0.1:64141
+[Proxy Recording  (4bbc:2b81c)] Received response of 219 header and 2754 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?in=home
+[Web Request      (4bbc:2b81c)] "GET http://127.0.0.1:8090/WebTours/nav.pl?in=home"   
+[Network Analyzer (4bbc:2b81c)]   (Sid:  9) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2b81c)]   (Sid:  9) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2b81c)]   (Sid:  9) Server -> Client : 2754 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2b81c)] Sent 2754 bytes to client @ 127.0.0.1:64142
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64153
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64154
+[Proxy Recording  (4bbc:26a8c)] Trying to connect to http://127.0.0.1:8090/WebTours/home.html ...
+[Proxy Recording  (4bbc:26a8c)] Trying to connect to http://127.0.0.1:8090/WebTours/home.html ...
+[Proxy Recording  (4bbc:26a8c)] Received response of 148 header and 1322 body bytes from http://127.0.0.1:8090/WebTours/home.html
+[Web Request      (4bbc:26a8c)] "GET http://127.0.0.1:8090/WebTours/home.html"   
+[Network Analyzer (4bbc:26a8c)]   (Sid: 10) Client -> Server @ : 596 bytes (Service=HTTP)
+[Network Analyzer (4bbc:26a8c)]   (Sid: 10) Server -> Client : 165 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:26a8c)]   (Sid: 10) Server -> Client : 1322 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:26a8c)] Sent 1322 bytes to client @ 127.0.0.1:64144
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64155
+[Proxy Recording.Error (4bbc:1fe74)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording.Error (4bbc:1fe74)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:1f9dc)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64156
+[Proxy Recording.Error (4bbc:1f9dc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:1f9dc)] Trying to connect to http://127.0.0.1:8090/WebTours/images/fonJM.png ...
+[Proxy Recording  (4bbc:1f9dc)] Trying to connect to http://127.0.0.1:8090/WebTours/images/fonJM.png ...
+[Proxy Recording  (4bbc:1f9dc)] Received response of 149 header and 29614 body bytes from http://127.0.0.1:8090/WebTours/images/fonJM.png
+[Web Request      (4bbc:1f9dc)] "GET http://127.0.0.1:8090/WebTours/images/fonJM.png"   
+[Network Analyzer (4bbc:1f9dc)]   (Sid: 11) Client -> Server @ : 503 bytes (Service=HTTP)
+[Network Analyzer (4bbc:1f9dc)]   (Sid: 11) Server -> Client : 166 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:1f9dc)]   (Sid: 11) Server -> Client : 29614 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:1f9dc)] Sent 29614 bytes to client @ 127.0.0.1:64153
+[Proxy Recording  (4bbc:1f9dc)] Trying to connect to http://127.0.0.1:8090/WebTours/images/mer_login.gif ...
+[Proxy Recording  (4bbc:1f9dc)] Trying to connect to http://127.0.0.1:8090/WebTours/images/mer_login.gif ...
+[Proxy Recording  (4bbc:1f9dc)] Received response of 147 header and 679 body bytes from http://127.0.0.1:8090/WebTours/images/mer_login.gif
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64157
+[Web Request      (4bbc:1f9dc)] "GET http://127.0.0.1:8090/WebTours/images/mer_login.gif"   
+[Network Analyzer (4bbc:1f9dc)]   (Sid: 12) Client -> Server @ : 507 bytes (Service=HTTP)
+[Network Analyzer (4bbc:1f9dc)]   (Sid: 12) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:1f9dc)]   (Sid: 12) Server -> Client : 679 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:1f9dc)] Sent 679 bytes to client @ 127.0.0.1:64154
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64168
+[Proxy Recording.Error (4bbc:1fabc)] Exception is caught while trying to connect to https://im.vk.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64179
+[Proxy Recording.Error (4bbc:1fabc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64180
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64181
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64182
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64183
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64184
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64185
+[Proxy Recording  (4bbc:2f078)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:2f078)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:2f078)] Received response of 129 header and 96 body bytes from http://91.105.192.100:80/api
+[Network Analyzer (4bbc:2f078)]   (Sid: 13) Client -> Server @ : 247 bytes (Service=HTTP)
+[Web Request      (4bbc:2f078)] "POST http://91.105.192.100/api"   
+[Network Analyzer (4bbc:2f078)]   (Sid: 13) Client -> Server @ : 92 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2f078)]   (Sid: 13) Server -> Client : 146 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2f078)]   (Sid: 13) Server -> Client : 96 bytes  (Service=HTTP)
+[Proxy Recording.Error (4bbc:2f078)] Exception is caught while sending data to http://91.105.192.100:80/api, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[User action                 ] StartTransactionEvent login [Proxy Recording  (4bbc:24578)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:24578)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:24578)] Received response of 130 header and 188 body bytes from http://91.105.192.100:80/api
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64187
+[Network Analyzer (4bbc:24578)]   (Sid: 14) Client -> Server @ : 224 bytes (Service=HTTP)
+[Web Request      (4bbc:24578)] "POST http://91.105.192.100/api"   
+[Network Analyzer (4bbc:24578)]   (Sid: 14) Client -> Server @ : 152 bytes (Service=HTTP)
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64188
+[Network Analyzer (4bbc:24578)]   (Sid: 14) Server -> Client : 147 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:24578)]   (Sid: 14) Server -> Client : 188 bytes  (Service=HTTP)
+[Proxy Recording.Error (4bbc:24578)] Exception is caught while sending data to http://91.105.192.100:80/api, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4bbc:29c2c)] Trying to connect to https://contile.services.mozilla.com:443/v1/tiles ...
+[Proxy Recording  (4bbc:29c2c)] Trying to connect to https://contile.services.mozilla.com:443/v1/tiles ...
+[Proxy Recording  (4bbc:29c2c)] Received response of 249 header and 0 body bytes from https://contile.services.mozilla.com:443/v1/tiles
+[Web Request      (4bbc:29c2c)] "GET https://contile.services.mozilla.com/v1/tiles"   
+[Network Analyzer (4bbc:29c2c)]   (Sid: 15) Client -> Server @ : 294 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4bbc:29c2c)]   (Sid: 15) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4bbc:29c2c)] Sent 0 bytes to client @ 127.0.0.1:64113
+[Proxy Recording  (4bbc:29c2c)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:29c2c)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:29c2c)] Received response of 130 header and 196 body bytes from http://91.105.192.100:80/api
+[Network Analyzer (4bbc:29c2c)]   (Sid: 16) Client -> Server @ : 224 bytes (Service=HTTP)
+[Web Request      (4bbc:29c2c)] "POST http://91.105.192.100/api"   
+[Network Analyzer (4bbc:29c2c)]   (Sid: 16) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (4bbc:29c2c)]   (Sid: 16) Server -> Client : 147 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:29c2c)]   (Sid: 16) Server -> Client : 196 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:29c2c)] Sent 196 bytes to client @ 192.168.228.97:64188
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64191
+[Proxy Recording  (4bbc:25240)] Trying to connect to https://spocs.getpocket.com:443/spocs ...
+[Proxy Recording  (4bbc:25240)] Trying to connect to https://spocs.getpocket.com:443/spocs ...
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64194
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64195
+[Proxy Recording  (4bbc:2c0fc)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:2c0fc)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64196
+[Proxy Recording  (4bbc:25240)] Received response of 184 header and 1167 body bytes from https://spocs.getpocket.com:443/spocs
+[Network Analyzer (4bbc:25240)]   (Sid: 17) Client -> Server @ : 327 bytes (SSL)(Service=HTTP)
+[Web Request      (4bbc:25240)] "POST https://spocs.getpocket.com/spocs"   
+[Network Analyzer (4bbc:25240)]   (Sid: 17) Client -> Server @ : 197 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4bbc:25240)]   (Sid: 17) Server -> Client : 201 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4bbc:25240)]   (Sid: 17) Server -> Client : 1167 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4bbc:25240)] Sent 1167 bytes to client @ 127.0.0.1:64114
+[Proxy Recording  (4bbc:2c0fc)] Received response of 130 header and 168 body bytes from http://91.105.192.100:80/api
+[Proxy Recording  (4bbc:25240)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:25240)] Trying to connect to http://91.105.192.100:80/api ...
+[Network Analyzer (4bbc:2c0fc)]   (Sid: 18) Client -> Server @ : 224 bytes (Service=HTTP)
+[Web Request      (4bbc:2c0fc)] "POST http://91.105.192.100/api"   
+[Network Analyzer (4bbc:2c0fc)]   (Sid: 18) Client -> Server @ : 328 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2c0fc)]   (Sid: 18) Server -> Client : 147 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2c0fc)]   (Sid: 18) Server -> Client : 168 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2c0fc)] Sent 168 bytes to client @ 192.168.228.97:64194
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64197
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64198
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64200
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64201
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64202
+[Proxy Recording  (4bbc:2adf4)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl ...
+[Proxy Recording  (4bbc:2adf4)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl ...
+[Proxy Recording  (4bbc:2bbd0)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain ...
+[Proxy Recording  (4bbc:2bbd0)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain ...
+[Proxy Recording  (4bbc:2adf4)] Received response of 382 header and 437 body bytes from http://127.0.0.1:8090/WebTours/login.pl
+[Proxy Recording  (4bbc:2bbd0)] Received response of 501 header and 5352 body bytes from https://content-signature-2.cdn.mozilla.net:443/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain
+[Network Analyzer (4bbc:2adf4)]   (Sid: 19) Client -> Server @ : 708 bytes (Service=HTTP)
+[Web Request      (4bbc:2adf4)] "POST http://127.0.0.1:8090/WebTours/login.pl"   
+[Network Analyzer (4bbc:2adf4)]   (Sid: 19) Client -> Server @ : 123 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2adf4)]   (Sid: 19) Server -> Client : 399 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2adf4)]   (Sid: 19) Server -> Client : 437 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2adf4)] Sent 437 bytes to client @ 127.0.0.1:64201
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64205
+[Web Request      (4bbc:2bbd0)] "GET https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain"   
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 20) Client -> Server @ : 378 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64206
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 20) Server -> Client : 518 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 20) Server -> Client : 5352 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4bbc:2bbd0)] Sent 5352 bytes to client @ 127.0.0.1:64115
+[Proxy Recording  (4bbc:2bbd0)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home ...
+[Proxy Recording  (4bbc:2bbd0)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home ...
+[Proxy Recording  (4bbc:2bbd0)] Received response of 219 header and 1476 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home
+[Web Request      (4bbc:2bbd0)] "GET http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"   
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 21) Client -> Server @ : 767 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 21) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 21) Server -> Client : 1476 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2bbd0)] Sent 1476 bytes to client @ 127.0.0.1:64205
+[Proxy Recording  (4bbc:2bbd0)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl?intro=true ...
+[Proxy Recording  (4bbc:2bbd0)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl?intro=true ...
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64207
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64208
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64209
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64210
+[Proxy Recording  (4bbc:2bbd0)] Received response of 191 header and 911 body bytes from http://127.0.0.1:8090/WebTours/login.pl?intro=true
+[Web Request      (4bbc:2bbd0)] "GET http://127.0.0.1:8090/WebTours/login.pl?intro=true"   
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 22) Client -> Server @ : 762 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 22) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 22) Server -> Client : 911 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2bbd0)] Sent 911 bytes to client @ 127.0.0.1:64206
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64211
+[Proxy Recording  (4bbc:22534)] Trying to connect to http://127.0.0.1:8090/WebTours/images/flights.gif ...
+[Proxy Recording  (4bbc:22534)] Trying to connect to http://127.0.0.1:8090/WebTours/images/flights.gif ...
+[Proxy Recording  (4bbc:22534)] Received response of 99 header and 0 body bytes from http://127.0.0.1:8090/WebTours/images/flights.gif
+[Web Request      (4bbc:22534)] "GET http://127.0.0.1:8090/WebTours/images/flights.gif"   
+[Network Analyzer (4bbc:22534)]   (Sid: 23) Client -> Server @ : 736 bytes (Service=HTTP)
+[Network Analyzer (4bbc:22534)]   (Sid: 23) Server -> Client : 126 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:22534)] Sent 0 bytes to client @ 127.0.0.1:64208
+[Proxy Recording  (4bbc:22534)] Trying to connect to http://127.0.0.1:8090/WebTours/images/itinerary.gif ...
+[Proxy Recording  (4bbc:22534)] Trying to connect to http://127.0.0.1:8090/WebTours/images/itinerary.gif ...
+[Proxy Recording  (4bbc:22534)] Received response of 99 header and 0 body bytes from http://127.0.0.1:8090/WebTours/images/itinerary.gif
+[Web Request      (4bbc:22534)] "GET http://127.0.0.1:8090/WebTours/images/itinerary.gif"   
+[Network Analyzer (4bbc:22534)]   (Sid: 24) Client -> Server @ : 738 bytes (Service=HTTP)
+[Network Analyzer (4bbc:22534)]   (Sid: 24) Server -> Client : 126 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:22534)] Sent 0 bytes to client @ 127.0.0.1:64209
+[Proxy Recording  (4bbc:22534)] Trying to connect to http://127.0.0.1:8090/WebTours/images/signoff.gif ...
+[Proxy Recording  (4bbc:22534)] Trying to connect to http://127.0.0.1:8090/WebTours/images/signoff.gif ...
+[Proxy Recording  (4bbc:22534)] Received response of 99 header and 0 body bytes from http://127.0.0.1:8090/WebTours/images/signoff.gif
+[Web Request      (4bbc:22534)] "GET http://127.0.0.1:8090/WebTours/images/signoff.gif"   
+[Network Analyzer (4bbc:22534)]   (Sid: 25) Client -> Server @ : 736 bytes (Service=HTTP)
+[Network Analyzer (4bbc:22534)]   (Sid: 25) Server -> Client : 126 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:22534)] Sent 0 bytes to client @ 127.0.0.1:64210
+[Proxy Recording.Error (4bbc:2ab54)] Exception is caught while trying to connect to https://addons-pa.clients6.google.com:443, message=Аутентификация не пройдена из-за закрытия транспортного потока удаленной стороной.
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64212
+[Proxy Recording.Error (4bbc:2ab54)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64213
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64214
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64215
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64216
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64217
+[User action                 ] EndTransactionEvent login [Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64218
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64219
+[Proxy Recording  (4bbc:25aac)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (4bbc:25aac)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (4bbc:25aac)]   (Sid: 26) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4bbc:25aac)]   (Sid: 26) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64222
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64223
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64225
+[Proxy Recording  (4bbc:22774)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:22774)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64227
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64228
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64229
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64230
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64231
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64232
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64233
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64234
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64235
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64236
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64237
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64238
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64239
+[Proxy Recording.Error (4bbc:2b30c)] Exception is caught while trying to connect to https://safebrowsing.googleapis.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2b30c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:2b30c)] Trying to connect to http://ocsp.digicert.com/ ...
+[Proxy Recording  (4bbc:2b30c)] Trying to connect to http://ocsp.digicert.com/ ...
+[Proxy Recording  (4bbc:2b30c)] Received response of 249 header and 471 body bytes from http://ocsp.digicert.com/
+[Network Analyzer (4bbc:2b30c)]   (Sid: 27) Client -> Server @ : 367 bytes (Service=HTTP)
+[Web Request      (4bbc:2b30c)] "POST http://ocsp.digicert.com/"   
+[Network Analyzer (4bbc:2b30c)]   (Sid: 27) Client -> Server @ : 83 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2b30c)]   (Sid: 27) Server -> Client : 266 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2b30c)]   (Sid: 27) Server -> Client : 471 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2b30c)] Sent 471 bytes to client @ 127.0.0.1:64225
+[Proxy Recording.Error (4bbc:2b8cc)] Exception is caught while trying to connect to https://aus5.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2b8cc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64241
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64242
+[User action                 ] StartTransactionEvent go_to_my_tickets [Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64243
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64244
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64245
+[Proxy Recording  (4bbc:25240)] Received response of 129 header and 88 body bytes from http://91.105.192.100:80/api
+[Network Analyzer (4bbc:25240)]   (Sid: 28) Client -> Server @ : 224 bytes (Service=HTTP)
+[Web Request      (4bbc:25240)] "POST http://91.105.192.100/api"   
+[Network Analyzer (4bbc:25240)]   (Sid: 28) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (4bbc:25240)]   (Sid: 28) Server -> Client : 146 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:25240)]   (Sid: 28) Server -> Client : 88 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:25240)] Sent 88 bytes to client @ 192.168.228.97:64195
+[Proxy Recording.Error (4bbc:24fd0)] Exception is caught while trying to connect to https://firefox.settings.services.mozilla.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:24fd0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64246
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64247
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64248
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64249
+[Proxy Recording.Error (4bbc:26a8c)] Exception is caught while trying to connect to https://addons-pa.clients6.google.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2b81c)] Exception is caught while trying to connect to https://firefox.settings.services.mozilla.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:26a8c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2b81c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:2b81c)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary ...
+[Proxy Recording.Error (4bbc:1fe74)] Exception is caught while trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4bbc:2b81c)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary ...
+[Proxy Recording.Error (4bbc:1fe74)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:2b81c)] Received response of 158 header and 535 body bytes from http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary
+[Web Request      (4bbc:2b81c)] "GET http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"   
+[Network Analyzer (4bbc:2b81c)]   (Sid: 29) Client -> Server @ : 804 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2b81c)]   (Sid: 29) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2b81c)]   (Sid: 29) Server -> Client : 535 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2b81c)] Sent 535 bytes to client @ 127.0.0.1:64245
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64250
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64251
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64252
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64253
+[Proxy Recording  (4bbc:26dcc)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary ...
+[Proxy Recording  (4bbc:26dcc)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary ...
+[Proxy Recording  (4bbc:26dcc)] Received response of 219 header and 1476 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary
+[Web Request      (4bbc:26dcc)] "GET http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (4bbc:26dcc)]   (Sid: 30) Client -> Server @ : 789 bytes (Service=HTTP)
+[Network Analyzer (4bbc:26dcc)]   (Sid: 30) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:26dcc)]   (Sid: 30) Server -> Client : 1476 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:26dcc)] Sent 1476 bytes to client @ 127.0.0.1:64250
+[Proxy Recording  (4bbc:26dcc)] Trying to connect to http://127.0.0.1:8090/WebTours/itinerary.pl ...
+[Proxy Recording  (4bbc:26dcc)] Trying to connect to http://127.0.0.1:8090/WebTours/itinerary.pl ...
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64254
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64255
+[Proxy Recording  (4bbc:26dcc)] Received response of 220 header and 86907 body bytes from http://127.0.0.1:8090/WebTours/itinerary.pl
+[Web Request      (4bbc:26dcc)] "GET http://127.0.0.1:8090/WebTours/itinerary.pl"   
+[Network Analyzer (4bbc:26dcc)]   (Sid: 31) Client -> Server @ : 772 bytes (Service=HTTP)
+[Network Analyzer (4bbc:26dcc)]   (Sid: 31) Server -> Client : 237 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:26dcc)]   (Sid: 31) Server -> Client : 86907 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:26dcc)] Sent 86907 bytes to client @ 127.0.0.1:64251
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64256
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64257
+[Proxy Recording.Error (4bbc:27e9c)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2b0dc)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2adc0)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:27e9c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2b0dc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:248f8)] Exception is caught while trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:1f9dc)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2adc0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2a128)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:1fabc)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4bbc:2b0dc)] Trying to connect to http://127.0.0.1:8090/WebTours/images/in_itinerary.gif ...
+[Proxy Recording.Error (4bbc:248f8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:1f9dc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:2adc0)] Trying to connect to http://127.0.0.1:8090/WebTours/images/home.gif ...
+[Proxy Recording.Error (4bbc:2a128)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:1fabc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:26d2c)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (4bbc:248f8)] Trying to connect to http://127.0.0.1:8090/WebTours/images/cancelreservation.gif ...
+[Proxy Recording  (4bbc:2b0dc)] Trying to connect to http://127.0.0.1:8090/WebTours/images/in_itinerary.gif ...
+[Proxy Recording  (4bbc:1f9dc)] Trying to connect to http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif ...
+[Proxy Recording  (4bbc:2adc0)] Trying to connect to http://127.0.0.1:8090/WebTours/images/home.gif ...
+[Proxy Recording.Error (4bbc:26d2c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:248f8)] Trying to connect to http://127.0.0.1:8090/WebTours/images/cancelreservation.gif ...
+[Proxy Recording  (4bbc:1f9dc)] Trying to connect to http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif ...
+[Proxy Recording  (4bbc:2b0dc)] Received response of 147 header and 733 body bytes from http://127.0.0.1:8090/WebTours/images/in_itinerary.gif
+[Proxy Recording  (4bbc:248f8)] Received response of 147 header and 831 body bytes from http://127.0.0.1:8090/WebTours/images/cancelreservation.gif
+[Proxy Recording  (4bbc:2adc0)] Received response of 147 header and 688 body bytes from http://127.0.0.1:8090/WebTours/images/home.gif
+[Proxy Recording  (4bbc:1f9dc)] Received response of 147 header and 742 body bytes from http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif
+[Web Request      (4bbc:2b0dc)] "GET http://127.0.0.1:8090/WebTours/images/in_itinerary.gif"   
+[Network Analyzer (4bbc:2b0dc)]   (Sid: 32) Client -> Server @ : 696 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2b0dc)]   (Sid: 32) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2b0dc)]   (Sid: 32) Server -> Client : 733 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2b0dc)] Sent 733 bytes to client @ 127.0.0.1:64254
+[Web Request      (4bbc:248f8)] "GET http://127.0.0.1:8090/WebTours/images/cancelreservation.gif"   
+[Network Analyzer (4bbc:248f8)]   (Sid: 33) Client -> Server @ : 684 bytes (Service=HTTP)
+[Network Analyzer (4bbc:248f8)]   (Sid: 33) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:248f8)]   (Sid: 33) Server -> Client : 831 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:248f8)] Sent 831 bytes to client @ 127.0.0.1:64256
+[Web Request      (4bbc:2adc0)] "GET http://127.0.0.1:8090/WebTours/images/home.gif"   
+[Network Analyzer (4bbc:2adc0)]   (Sid: 34) Client -> Server @ : 688 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2adc0)]   (Sid: 34) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2adc0)]   (Sid: 34) Server -> Client : 688 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2adc0)] Sent 688 bytes to client @ 127.0.0.1:64255
+[Web Request      (4bbc:1f9dc)] "GET http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (4bbc:1f9dc)]   (Sid: 35) Client -> Server @ : 688 bytes (Service=HTTP)
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64261
+[Network Analyzer (4bbc:1f9dc)]   (Sid: 35) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:1f9dc)]   (Sid: 35) Server -> Client : 742 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:1f9dc)] Sent 742 bytes to client @ 127.0.0.1:64257
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64262
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64264
+[Proxy Recording  (4bbc:22774)] Received response of 129 header and 88 body bytes from http://91.105.192.100:80/api
+[Network Analyzer (4bbc:22774)]   (Sid: 36) Client -> Server @ : 224 bytes (Service=HTTP)
+[Web Request      (4bbc:22774)] "POST http://91.105.192.100/api"   
+[Network Analyzer (4bbc:22774)]   (Sid: 36) Client -> Server @ : 296 bytes (Service=HTTP)
+[Network Analyzer (4bbc:22774)]   (Sid: 36) Server -> Client : 146 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:22774)]   (Sid: 36) Server -> Client : 88 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:22774)] Sent 88 bytes to client @ 192.168.228.97:64218
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64265
+[Proxy Recording  (4bbc:1f9dc)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:1f9dc)] Trying to connect to http://91.105.192.100:80/api ...
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64266
+[Proxy Recording.Error (4bbc:29c30)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4bbc:2b768)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4bbc:28538)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2ce08)] Exception is caught while trying to connect to https://im.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:29c2c)] Exception is caught while trying to connect to https://stats.vk-portal.net:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2c0fc)] Exception is caught while trying to connect to https://queuev4.vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2f078)] Exception is caught while trying to connect to https://91.105.192.100:443, message=Сбой установки соединения из-за неожиданного формата пакета.
+[Proxy Recording.Error (4bbc:29c30)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:24578)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2b768)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:28538)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2ce08)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:29c2c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2c0fc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2f078)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:24578)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64267
+[Proxy Recording  (4bbc:22774)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4bbc:22774)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (4bbc:22774)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Web Request      (4bbc:22774)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (4bbc:22774)]   (Sid: 37) Client -> Server @ : 310 bytes (Service=HTTP)
+[Network Analyzer (4bbc:22774)]   (Sid: 37) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:22774)]   (Sid: 37) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:22774)] Sent 90 bytes to client @ 127.0.0.1:64267
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64268
+[Proxy Recording  (4bbc:2a128)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4bbc:2a128)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (4bbc:2a128)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (4bbc:2a128)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (4bbc:2a128)]   (Sid: 38) Client -> Server @ : 312 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2a128)]   (Sid: 38) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2a128)]   (Sid: 38) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2a128)] Sent 8 bytes to client @ 127.0.0.1:64268
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64274
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64275
+[Proxy Recording  (4bbc:2c0fc)] Trying to connect to http://r3.o.lencr.org/ ...
+[Proxy Recording  (4bbc:2c0fc)] Trying to connect to http://r3.o.lencr.org/ ...
+[Proxy Recording.Error (4bbc:2adf4)] Exception is caught while trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2bbd0)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2adf4)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2bbd0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:22534)] Exception is caught while trying to connect to https://push.services.mozilla.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2a9fc)] Exception is caught while trying to connect to https://addons-pa.clients6.google.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:22534)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:2c0fc)] Received response of 368 header and 503 body bytes from http://r3.o.lencr.org/
+[Proxy Recording.Error (4bbc:2a9fc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:257d0)] Exception is caught while trying to connect to https://ssl.gstatic.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:257d0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Network Analyzer (4bbc:2c0fc)]   (Sid: 39) Client -> Server @ : 361 bytes (Service=HTTP)
+[Web Request      (4bbc:2c0fc)] "POST http://r3.o.lencr.org/"   
+[Network Analyzer (4bbc:2c0fc)]   (Sid: 39) Client -> Server @ : 85 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2c0fc)]   (Sid: 39) Server -> Client : 385 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2c0fc)]   (Sid: 39) Server -> Client : 503 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2c0fc)] Sent 503 bytes to client @ 127.0.0.1:64275
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64277
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64278
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64279
+[User action                 ] EndTransactionEvent go_to_my_tickets [Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64280
+[Proxy Recording.Error (4bbc:12f68)] Exception is caught while trying to connect to https://firefox.settings.services.mozilla.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2b7ac)] Exception is caught while trying to connect to https://aus5.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:12f68)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2b7ac)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2ab54)] Exception is caught while trying to connect to https://normandy.cdn.mozilla.net:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2ab54)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64283
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64284
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64285
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64286
+[Proxy Recording.Error (4bbc:2b490)] Exception is caught while trying to connect to https://services.addons.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2b490)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[User action                 ] StartTransactionEvent go_to_flights [Proxy Recording.Error (4bbc:25aac)] Exception is caught while trying to connect to https://location.services.mozilla.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:25aac)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64290
+[Proxy Recording  (4bbc:2a9fc)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?page=search ...
+[Proxy Recording  (4bbc:2a9fc)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?page=search ...
+[Proxy Recording  (4bbc:2a9fc)] Received response of 158 header and 560 body bytes from http://127.0.0.1:8090/WebTours/welcome.pl?page=search
+[Web Request      (4bbc:2a9fc)] "GET http://127.0.0.1:8090/WebTours/welcome.pl?page=search"   
+[Network Analyzer (4bbc:2a9fc)]   (Sid: 40) Client -> Server @ : 806 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2a9fc)]   (Sid: 40) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2a9fc)]   (Sid: 40) Server -> Client : 560 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2a9fc)] Sent 560 bytes to client @ 127.0.0.1:64290
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64291
+[Proxy Recording  (4bbc:2ab54)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=flights ...
+[Proxy Recording  (4bbc:2ab54)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=flights ...
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64292
+[Proxy Recording  (4bbc:2b768)] Trying to connect to http://127.0.0.1:8090/WebTours/reservations.pl?page=welcome ...
+[Proxy Recording  (4bbc:2b768)] Trying to connect to http://127.0.0.1:8090/WebTours/reservations.pl?page=welcome ...
+[Proxy Recording  (4bbc:2ab54)] Received response of 219 header and 1476 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=flights
+[Web Request      (4bbc:2ab54)] "GET http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=flights"   
+[Network Analyzer (4bbc:2ab54)]   (Sid: 41) Client -> Server @ : 784 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2ab54)]   (Sid: 41) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2ab54)]   (Sid: 41) Server -> Client : 1476 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2ab54)] Sent 1476 bytes to client @ 127.0.0.1:64291
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64293
+[Proxy Recording  (4bbc:2bbd0)] Trying to connect to http://127.0.0.1:8090/WebTours/images/in_flights.gif ...
+[Proxy Recording  (4bbc:2bbd0)] Trying to connect to http://127.0.0.1:8090/WebTours/images/in_flights.gif ...
+[Proxy Recording  (4bbc:2bbd0)] Received response of 147 header and 726 body bytes from http://127.0.0.1:8090/WebTours/images/in_flights.gif
+[Web Request      (4bbc:2bbd0)] "GET http://127.0.0.1:8090/WebTours/images/in_flights.gif"   
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 42) Client -> Server @ : 692 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 42) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2bbd0)]   (Sid: 42) Server -> Client : 726 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2bbd0)] Sent 726 bytes to client @ 127.0.0.1:64293
+[Proxy Recording  (4bbc:2b768)] Received response of 219 header and 4182 body bytes from http://127.0.0.1:8090/WebTours/reservations.pl?page=welcome
+[Web Request      (4bbc:2b768)] "GET http://127.0.0.1:8090/WebTours/reservations.pl?page=welcome"   
+[Network Analyzer (4bbc:2b768)]   (Sid: 43) Client -> Server @ : 785 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2b768)]   (Sid: 43) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2b768)]   (Sid: 43) Server -> Client : 4182 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2b768)] Sent 4182 bytes to client @ 127.0.0.1:64292
+[Proxy Recording  (4bbc:28c40)] Client request from @ 127.0.0.1:64294
+[Proxy Recording  (4bbc:2b7ac)] Trying to connect to http://127.0.0.1:8090/WebTours/images/button_next.gif ...
+[Proxy Recording  (4bbc:2b7ac)] Trying to connect to http://127.0.0.1:8090/WebTours/images/button_next.gif ...
+[Proxy Recording  (4bbc:2b7ac)] Received response of 147 header and 758 body bytes from http://127.0.0.1:8090/WebTours/images/button_next.gif
+[Web Request      (4bbc:2b7ac)] "GET http://127.0.0.1:8090/WebTours/images/button_next.gif"   
+[Network Analyzer (4bbc:2b7ac)]   (Sid: 44) Client -> Server @ : 694 bytes (Service=HTTP)
+[Network Analyzer (4bbc:2b7ac)]   (Sid: 44) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (4bbc:2b7ac)]   (Sid: 44) Server -> Client : 758 bytes  (Service=HTTP)
+[Proxy Recording  (4bbc:2b7ac)] Sent 758 bytes to client @ 127.0.0.1:64294
+[Proxy Recording.Error (4bbc:29b6c)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2b994)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:29b6c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2b994)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (4bbc:2abcc)] Exception is caught while trying to connect to https://shavar.services.mozilla.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2abcc)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (4bbc:22dbc)] Client request from @ 192.168.228.97:64295
+[Proxy Recording.Error (4bbc:2b30c)] Exception is caught while trying to connect to https://vk.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:2b30c)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[User action                 ] EndTransactionEvent go_to_flights [Proxy Recording.Error (4bbc:27ad0)] Exception is caught while trying to connect to https://top-fwz1.mail.ru:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (4bbc:27ad0)] Exception is caught while connecting to , message=Поток был недоступен для чтения.

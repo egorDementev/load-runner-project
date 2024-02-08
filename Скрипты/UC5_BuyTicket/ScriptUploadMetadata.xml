@@ -107,6 +107,11 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv1Tu.697.log" Filter="1" />
+    <FileEntry Name="mdrv5Ut.933.log" Filter="1" />
+    <FileEntry Name="mdrvHMe.957.log" Filter="1" />
+    <FileEntry Name="mdrvIYc.101.log" Filter="1" />
+    <FileEntry Name="mdrvqxD.939.log" Filter="1" />
+    <FileEntry Name="mdrvZfo.697.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

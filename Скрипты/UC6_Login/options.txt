@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LoadRunner\LRProjects\Скрипты\Скрипты\UC6_Login
+-ID:\LoadRunner\include
+-ed:\loadrunner\lrprojects\скрипты\скрипты\uc6_login\\logfile.log
+d:\loadrunner\lrprojects\скрипты\скрипты\uc6_login\\combined_UC6_Login.c
+d:\loadrunner\lrprojects\скрипты\скрипты\uc6_login\\pre_cci.c

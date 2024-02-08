@@ -34,6 +34,10 @@
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv3dp.969.log" Filter="1" />
+    <FileEntry Name="mdrvFDO.591.log" Filter="1" />
+    <FileEntry Name="mdrvPaq.477.log" Filter="1" />
+    <FileEntry Name="mdrvY1W.839.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

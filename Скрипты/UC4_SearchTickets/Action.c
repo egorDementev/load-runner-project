@@ -189,32 +189,6 @@ Action()
 		lr_end_transaction("choose_ticket",LR_AUTO);
 		
 		
-		lr_think_time(5);
-		
-
-		lr_start_transaction("go_to_my_tickets");
-	
-			web_revert_auto_header("Sec-Fetch-User");
-		
-			web_add_auto_header("Upgrade-Insecure-Requests", "1");
-		
-			web_reg_find("Text=Error","Fail=Found",LAST);
-			web_reg_find("Text=<b>Itinerary</font></b>", LAST);
-			web_url("Itinerary Button", 
-				"URL=http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary", 
-				"TargetFrame=body", 
-				"Resource=0", 
-				"RecContentType=text/html", 
-				"Referer=http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home", 
-				"Snapshot=t3.inf", 
-				"Mode=HTML", 
-				LAST);
-		
-			web_set_sockets_option("SSL_VERSION", "AUTO");
-	
-		lr_end_transaction("go_to_my_tickets",LR_AUTO);
-		
-		
 //		lr_think_time(5);
 		
 		
