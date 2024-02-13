@@ -1,0 +1,262 @@
+Start auto log messages stack - Iteration 71.	[MsgId: MMSG-10545]
+Action.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/header.html" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/webtours.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 93.	[MsgId: MMSG-10545]
+Action.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/header.html" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/webtours.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 71.	[MsgId: MMSG-10545]
+Action.c(36): Warning -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MWAR-27792]
+Action.c(36): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(36): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 2618 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 71.	[MsgId: MMSG-10545]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 73.	[MsgId: MMSG-10545]
+Action.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/header.html" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/webtours.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+Start auto log messages stack - Iteration 29.	[MsgId: MMSG-10545]
+Action.c(20): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(20): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(29): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(29): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(35): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(35): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 29.	[MsgId: MMSG-10545]
+Action.c(36): Warning -26200: At least one of the resources specified by EXTRARES has not been downloaded due to the above error(s)  	[MsgId: MWAR-26200]
+Action.c(36): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(36): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 29.	[MsgId: MMSG-10545]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(36): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Action.c(36): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(36): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 4340 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 73.	[MsgId: MMSG-10545]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(20): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(20): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(29): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(29): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(35): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(35): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(36): Warning -26200: At least one of the resources specified by EXTRARES has not been downloaded due to the above error(s)  	[MsgId: MWAR-26200]
+Action.c(36): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(36): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(36): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 77.	[MsgId: MMSG-10545]
+Action.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/header.html" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/webtours.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+Start auto log messages stack - Iteration 99.	[MsgId: MMSG-10545]
+Action.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/header.html" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/webtours.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 33.	[MsgId: MMSG-10545]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/webtours.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(36): Warning -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MWAR-27792]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 77.	[MsgId: MMSG-10545]
+Action.c(36): Warning -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MWAR-27792]
+Action.c(36): Warning -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MWAR-27792]
+Action.c(36): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(36): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 2834 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 77.	[MsgId: MMSG-10545]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 33.	[MsgId: MMSG-10545]
+Action.c(36): Warning -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MWAR-27792]
+Action.c(36): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(36): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 3634 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 33.	[MsgId: MMSG-10545]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Action.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/header.html" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/webtours.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Action.c(36): Warning -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MWAR-27792]
+Action.c(36): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(36): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 3522 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 105.	[MsgId: MMSG-10545]
+Action.c(20): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(20): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(29): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(29): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(35): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(35): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 105.	[MsgId: MMSG-10545]
+Action.c(36): Warning -26200: At least one of the resources specified by EXTRARES has not been downloaded due to the above error(s)  	[MsgId: MWAR-26200]
+Action.c(36): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(36): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 0 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 105.	[MsgId: MMSG-10545]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(36): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 61.	[MsgId: MMSG-10545]
+Action.c(36): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/header.html" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Detected non-resource "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" in "http://127.0.0.1:8090/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/webtours.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+Action.c(36): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(36): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 5140 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 61.	[MsgId: MMSG-10545]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 65.	[MsgId: MMSG-10545]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/jmeter_logo.png" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/webtours.png" (specified by argument number 13)  	[MsgId: MMSG-26577]
+Action.c(36): Downloading resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(36): Warning -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MWAR-27792]
+Action.c(36): Warning -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MWAR-27792]
+Action.c(36): Warning -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MWAR-27792]
+Action.c(36): Error -27792: Failed to connect to server "127.0.0.1:8090": [10061] Connection refused  	[MsgId: MERR-27792]
+Action.c(36): Error -35049: No match found for the requested parameter "userSession". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(36): Error -26377: No match found for the requested parameter "SID". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 1112 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 65.	[MsgId: MMSG-10545]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): Error -26366: "Text=Welcome to the Web Tours site." not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

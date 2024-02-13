@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></meta>
+<title>Analysis Summary Report</title>
+<link href="bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="dataTables.bootstrap4.min.css"/>
+<link rel="stylesheet" type="text/css" href="summarypage.css"/>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="datatables.js"></script>
+<script type="text/javascript" src="summarypage.js"></script>
+<script type="text/javascript" src="jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript" src="dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" src="highcharts.js"></script>
+<script type="text/javascript" src="data.js"></script>
+</head>
+<body class="main">
+        <div id="loading" class="loader">
+        </div>
+        <div id="mainContainer" class="container-fluid hidden pt-1">
+
+
+        <div class="flex flex-top rectangle-top align-items-center ml-0 mr-0">
+        <div class="pl-2 pr-2 item border-right top-section run-time">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Calendar.svg" class="top-icon-calendar">
+        </div>
+        <div class="p-2 item">
+        <div class="scenario-settings-data">12.02.2024     17:53:44</div>
+        <div class="scenario-settings-title">Run Time</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="pl-2 pr-2 item border-right top-section duration">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Time.svg" class="top-icon-time">
+        </div>
+        <div class="p-2 item">
+        <div class="scenario-settings-data">1h: 50m: 40s</div>
+        <div class="scenario-settings-title">Duration</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="pl-2 pr-2 item border-right top-section scenario-name">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Project.svg" class="top-icon-project">
+        </div>
+        <div class="p-2 item min-width">
+        <div class="scenario-settings-data" id="sp-tooltip"></div>
+        <div class="scenario-settings-title">Scenario Name</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="pl-2 pr-2 item border-right top-section result-name">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Test.svg" class="top-icon-test">
+        </div>
+        <div class="p-2 item min-width">
+        <div class="scenario-settings-data" id="rt-tooltip">res</div>
+        <div class="scenario-settings-title">Result Name</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="p-2 item top-section sla-section">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img id="SLAIcon" src="Icons_SLA.svg" class="top-icon-sla">
+        </div>
+        <div class="p-2 item">
+        <div class="scenario-settings-data" id="SLAStatus">Defined</div>
+        <div class="scenario-settings-title">SLA</div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="mt-1"><div class="notes-placeholder"></div></div>
+        <div class="margin-top-25">
+        <div class="flex flex-top">
+
+
+        <div class="item scheduler">
+        <div><div id=SchedulerGraphData class=hidden>
+  <div id=GroupCount>1</div>
+  <table id="Values_0" title="Global Schedule">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>27</td>
+  </tr>
+
+  <tr>
+    <td>3720</td><td>27</td>
+  </tr>
+
+  <tr>
+    <td>3720</td><td>0</td>
+  </tr>
+
+
+  </table>
+</div>
+<div id=SchedulerGraph class=scheduler-graph>
+</div>
+</div>
+        </div>
+
+
+        <div class="pl-3 pr-3 item top-five-table flex flex-top-column flex-grow">
+        <div class="header1 item mt-1" id="topTransactionsTitle">TOP TRANSACTIONS BY DURATION</div>
+
+
+<table id="TopTransactionsTable" class="table item mt-2" summary="Top five worst transactions"  >
+<thead><tr  bgcolor="" >
+        <th id="LraTransaction Name&nbsp;" vAlign="top"><span class="Verdana2">Transaction Name&nbsp;</span></th>
+        <th id="LraAverage&nbsp;" vAlign="top"><span class="Verdana2">Average&nbsp;</span></th>
+        <th id="LraMinimum&nbsp;" vAlign="top"><span class="Verdana2">Minimum&nbsp;</span></th>
+        <th id="LraMaximum&nbsp;" vAlign="top"><span class="Verdana2">Maximum&nbsp;</span></th>
+</tr></thead><tbody>      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <div>UC5_BuyTicket</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>38,759</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>34,329</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>43,513</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <div>Action_Transaction</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>29,024</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>19,375</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>41,411</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <div>UC3_RemoveTicket</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>27,71</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>24,354</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>33,336</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <div>UC1_RegisterUser</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>26,537</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>24,196</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>31,034</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <div>UC4_SearchTickets</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>26,268</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>23,609</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>31,357</div></td>
+      </tr>
+</tbody>
+
+</table> 
+
+        </div>
+
+
+        <div class="pl-3 item statistics-pane flex flex-top-column flex-grow">
+        <div class="p-2 mt-1 item header1">STATISTICS</div>
+        <div class="p-2 item flex flex-top flex-grow">
+
+
+        <div class="pr-2 flex flex-top-column item statistic-column">
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("VuserStateGraph")'>Maximum Running Vusers</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("Throughput")'>Total Throughput (bytes)</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("Throughput")'>Average Throughput (B/s)</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("HitsperSecond")'>Total Hits:</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("HitsperSecond")'>Average Hits per Second</a></div>
+        </div>
+
+
+        <div class="pr-2 flex flex-top-column item statistic-column">
+        <div class="item sla-status pr-1 placeholder flex-grow"></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        </div>
+
+
+        <div class="flex flex-top-column item statistic-column">
+        <div headers="LraMaximumRunningVusers" class="item statistic-values flex-grow">36</div>
+        <div headers="LraTotalThroughput" class="item statistic-values flex-grow">120 901 053</div>
+        <div headers="LraAverageThroughput" class="item statistic-values flex-grow">100 750,877</div>
+        <div headers="LraTotalHits" class="item statistic-values flex-grow">26 578,8</div>
+        <div headers="LraAverageHitsPerSecond" class="item statistic-values flex-grow">22,149</div>
+        </div>
+        </div>
+
+
+        </div>
+        </div>
+        </div>
+
+
+        <div id="SLA-title" class="row margin-top-35 hidden">
+        <div class="col">
+        <div class="sla-title">SCENARIO BEHAVIOR OVER TIME</div>
+        </div>
+        </div>
+
+
+        <div id="SLA-description" class="row margin-top-12 hidden">
+        <div class="col">
+        <div class="sla-description">The SLA status of the following measurements displayed over time</div>
+        </div>
+        </div>
+
+
+
+        <div class="row margin-top-35">
+        <div class="col">
+        <div class="header1" id="transactionsTitle">TRANSACTIONS</div>
+        </div>
+        </div>
+
+
+        <div class="row">
+        <div class="col">
+
+
+<table id="TransactionSummaryTable" class="table"  >
+
+
+</table> 
+
+        </div>
+        </div>
+
+
+<table id="TransactionsTable" class="table table-responsive-xl" summary="Transactions statistics summary table"  >
+<thead><tr  bgcolor="" >
+        <th id="LraTransaction Name&nbsp;" vAlign="top"><span class="Verdana2">Transaction Name&nbsp;</span></th>
+<th id="Status" class="table_header" vAlign="top" width="80"><span class="Verdana2">SLA Status</span></th>        <th id="LraMinimum&nbsp;" vAlign="top"><span class="Verdana2">Minimum&nbsp;</span></th>
+        <th id="LraAverage&nbsp;" vAlign="top"><span class="Verdana2">Average&nbsp;</span></th>
+        <th id="LraMaximum&nbsp;" vAlign="top"><span class="Verdana2">Maximum&nbsp;</span></th>
+        <th id="LraStd. Deviation&nbsp;" vAlign="top"><span class="Verdana2">Std. Deviation&nbsp;</span></th>
+        <th id="Lra90 Percent&nbsp;" vAlign="top"><span class="Verdana2">90 Percent&nbsp;</span></th>
+        <th id="LraPass&nbsp;" vAlign="top"><span class="Verdana2">Pass&nbsp;</span></th>
+        <th id="LraFail&nbsp;" vAlign="top"><span class="Verdana2">Fail&nbsp;</span></th>
+        <th id="LraStop&nbsp;" vAlign="top"><span class="Verdana2">Stop&nbsp;</span></th>
+</tr></thead><tbody>      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(Action_Transaction)0000")' span class="VerBluUnd7">Action_Transaction</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>19,375</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>29,024</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>41,411</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>6,764</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>33,715</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>1 163</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>33</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(choose_ticket)0000")' span class="VerBluUnd7">choose_ticket</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,255</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,757</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>2</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,405</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1,216</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>606</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(go_to_flights)0000")' span class="VerBluUnd7">go_to_flights</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,474</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>1,579</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>3,836</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,74</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>2,277</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>716</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(go_to_menu)0000")' span class="VerBluUnd7">go_to_menu</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,488</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>1,62</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>3,745</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,686</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>2,451</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>149</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(go_to_my_tickets)0000")' span class="VerBluUnd7">go_to_my_tickets</td>
+<td><img src="Status_Failed.svg"><div class="hidden">2</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,532</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>1,837</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>4,727</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,931</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>3,036</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>567</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(go_to_registrating_menu)0000")' span class="VerBluUnd7">go_to_registrating_menu</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,262</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,899</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>2,387</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,436</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1,541</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>147</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(go_to_welcome_page)0000")' span class="VerBluUnd7">go_to_welcome_page</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,544</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>1,568</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>4,85</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,783</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>2,295</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>1 201</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(input_data_to_find_tickets)0000")' span class="VerBluUnd7">input_data_to_find_tickets</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,257</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,729</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>2,167</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,4</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1,08</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>609</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>28</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(login)0000")' span class="VerBluUnd7">login</td>
+<td><img src="Status_Failed.svg"><div class="hidden">2</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,549</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>1,714</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>3,917</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,765</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>2,52</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>1 048</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(logout)0000")' span class="VerBluUnd7">logout</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,482</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>1,408</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>3,437</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,673</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>2,335</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>666</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(payment)0000")' span class="VerBluUnd7">payment</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,243</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,74</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>2,154</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,436</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1,266</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>339</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(registrating)0000")' span class="VerBluUnd7">registrating</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,245</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,75</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>1,827</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,347</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1,259</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>148</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(removing_ticket)0000")' span class="VerBluUnd7">removing_ticket</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,277</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>1,142</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>3,364</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,681</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1,828</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>144</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>5</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC1_RegisterUser)0000")' span class="VerBluUnd7">UC1_RegisterUser</td>
+<td><img src="Status_Failed.svg"><div class="hidden">2</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>24,196</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>26,537</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>31,034</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>1,433</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>28,405</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>149</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC2_CheckMyTickets)0000")' span class="VerBluUnd7">UC2_CheckMyTickets</td>
+<td><img src="Status_Failed.svg"><div class="hidden">2</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>17,71</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>21,408</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>27,875</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>1,851</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>24,04</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>188</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC3_RemoveTicket)0000")' span class="VerBluUnd7">UC3_RemoveTicket</td>
+<td><img src="Status_Failed.svg"><div class="hidden">2</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>24,354</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>27,71</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>33,336</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>1,925</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>30,447</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>142</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>5</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC4_SearchTickets)0000")' span class="VerBluUnd7">UC4_SearchTickets</td>
+<td><img src="Status_Failed.svg"><div class="hidden">2</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>23,609</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>26,268</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>31,357</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>1,536</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>27,872</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>269</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>28</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC5_BuyTicket)0000")' span class="VerBluUnd7">UC5_BuyTicket</td>
+<td><img src="Status_Failed.svg"><div class="hidden">2</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>34,329</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>38,759</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>43,513</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>1,83</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>41,137</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>336</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC6_Login)0000")' span class="VerBluUnd7">UC6_Login</td>
+<td><img src="Status_Failed.svg"><div class="hidden">2</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>18,258</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>22,176</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>26,126</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>1,906</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>25,11</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>79</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(vuser_init_Transaction)0000")' span class="VerBluUnd7">vuser_init_Transaction</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,009</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,009</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>0,009</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,019</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>0,009</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>9</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+</tbody>
+
+</table> 
+
+<a name="HTTP_Responses_Summary"></a>
+<table id="HTTPCodesTable" class="table table-responsive-xl margin-bottom-20"  >
+<thead><tr  bgcolor="" >
+        <th id="LraCodes&nbsp;" vAlign="top"><span class="Verdana2">Codes&nbsp;</span></th>
+        <th id="LraTotal&nbsp;" vAlign="top"><span class="Verdana2">Total&nbsp;</span></th>
+        <th id="LraPer second&nbsp;" vAlign="top"><span class="Verdana2">Per second&nbsp;</span></th>
+</tr></thead><tbody>      <tr bgcolor="">
+        <td headers="LraCodes&nbsp;" class="styling_2">        <div>HTTP_200</div></td>
+        <td headers="LraTotal&nbsp;" class="styling_2">        <div>26 578,8</div></td>
+        <td headers="LraPer second&nbsp;" class="styling_2">        <div>22,149</div></td>
+      </tr>
+</tbody>
+
+</table> 
+
+        </div>
+
+
+<table  >
+      <div>
+
+
+      </div>
+</table> 
+
+</body></html>
+

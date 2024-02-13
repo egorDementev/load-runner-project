@@ -50,6 +50,19 @@
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv6wL.199.log" Filter="1" />
+    <FileEntry Name="mdrv8l2.297.log" Filter="1" />
+    <FileEntry Name="mdrvAP9.567.log" Filter="1" />
+    <FileEntry Name="mdrvgna.375.log" Filter="1" />
+    <FileEntry Name="mdrvh9s.319.log" Filter="1" />
+    <FileEntry Name="mdrvjsB.835.log" Filter="1" />
+    <FileEntry Name="mdrvLVb.247.log" Filter="1" />
+    <FileEntry Name="mdrvmVa.331.log" Filter="1" />
+    <FileEntry Name="mdrvnNT.209.log" Filter="1" />
+    <FileEntry Name="mdrvOLN.427.log" Filter="1" />
+    <FileEntry Name="mdrvp35.293.log" Filter="1" />
+    <FileEntry Name="mdrvSGp.159.log" Filter="1" />
+    <FileEntry Name="mdrvxbB.189.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />

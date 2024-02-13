@@ -24,6 +24,20 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv4vX.151.log" Filter="1" />
+    <FileEntry Name="mdrv62j.447.log" Filter="1" />
+    <FileEntry Name="mdrv6AN.839.log" Filter="1" />
+    <FileEntry Name="mdrv7AC.157.log" Filter="1" />
+    <FileEntry Name="mdrv7h9.455.log" Filter="1" />
+    <FileEntry Name="mdrvbY4.829.log" Filter="1" />
+    <FileEntry Name="mdrvEfZ.539.log" Filter="1" />
+    <FileEntry Name="mdrvEpI.263.log" Filter="1" />
+    <FileEntry Name="mdrvH8w.309.log" Filter="1" />
+    <FileEntry Name="mdrvIS8.851.log" Filter="1" />
+    <FileEntry Name="mdrvkCO.521.log" Filter="1" />
+    <FileEntry Name="mdrvmV8.619.log" Filter="1" />
+    <FileEntry Name="mdrvt06.279.log" Filter="1" />
+    <FileEntry Name="mdrvXoS.875.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
