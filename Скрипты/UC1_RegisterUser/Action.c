@@ -87,8 +87,8 @@ Action()
 	
 			web_reg_find("Text=Error","Fail=Found",LAST);
 			web_reg_find("Text=invalid","Fail=Found",LAST);
-//			web_reg_find("Text=Your username is taken","Fail=Found",LAST);
-//			web_reg_find("Text=Thank you, <b>{userdata}</b>, for registering and welcome to the Web Tours family.", LAST);
+			web_reg_find("Text=Your username is taken","Fail=Found",LAST);
+			web_reg_find("Text=Thank you, <b>{userdata}</b>, for registering and welcome to the Web Tours family.", LAST);
 			web_submit_data("login.pl_2", 
 				"Action=http://127.0.0.1:8090/WebTours/login.pl", 
 				"Method=POST", 
@@ -126,7 +126,7 @@ Action()
 		lr_start_transaction("go_to_menu");
 	
 			web_reg_find("Text=Error","Fail=Found",LAST);
-//			web_reg_find("Text=Using the menu to the left, you can search for new flights to book", LAST);
+			web_reg_find("Text=Using the menu to the left, you can search for new flights to book", LAST);
 			web_url("button_next.gif", 
 				"URL=http://127.0.0.1:8090/WebTours/welcome.pl?page=menus", 
 				"TargetFrame=body", 
@@ -150,7 +150,7 @@ Action()
 			web_add_auto_header("Upgrade-Insecure-Requests", "1");
 		
 			web_reg_find("Text=Error","Fail=Found",LAST);
-//			web_reg_find("Text=<b>Itinerary</font></b>", LAST);
+			web_reg_find("Text=<b>Itinerary</font></b>", LAST);
 			web_url("Itinerary Button", 
 				"URL=http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary", 
 				"TargetFrame=body", 
