@@ -137,47 +137,47 @@
 <m_RuleResult href="#ref-64"/>
 <m_strId>transaction_response_time_percentile_UC1_RegisterUser</m_strId>
 <m_IsValid>true</m_IsValid>
-<m_PrimaryException xsi:null="1"/>
+<m_PrimaryException href="#ref-65"/>
 </a7:SLARuleInfo>
 <a7:SLARuleInfo id="ref-21" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-65"/>
-<m_RuleData href="#ref-66"/>
-<m_RuleResult href="#ref-67"/>
+<m_RuleDef href="#ref-66"/>
+<m_RuleData href="#ref-67"/>
+<m_RuleResult href="#ref-68"/>
 <m_strId>transaction_response_time_percentile_UC2_CheckMyTickets</m_strId>
 <m_IsValid>true</m_IsValid>
-<m_PrimaryException xsi:null="1"/>
+<m_PrimaryException href="#ref-69"/>
 </a7:SLARuleInfo>
 <a7:SLARuleInfo id="ref-22" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-68"/>
-<m_RuleData href="#ref-69"/>
-<m_RuleResult href="#ref-70"/>
+<m_RuleDef href="#ref-70"/>
+<m_RuleData href="#ref-71"/>
+<m_RuleResult href="#ref-72"/>
 <m_strId>transaction_response_time_percentile_UC3_RemoveTicket</m_strId>
 <m_IsValid>true</m_IsValid>
-<m_PrimaryException xsi:null="1"/>
+<m_PrimaryException href="#ref-73"/>
 </a7:SLARuleInfo>
 <a7:SLARuleInfo id="ref-23" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-71"/>
-<m_RuleData href="#ref-72"/>
-<m_RuleResult href="#ref-73"/>
-<m_strId>transaction_response_time_percentile_UC4_SearchTickets</m_strId>
-<m_IsValid>true</m_IsValid>
-<m_PrimaryException xsi:null="1"/>
-</a7:SLARuleInfo>
-<a7:SLARuleInfo id="ref-24" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_RuleDef href="#ref-74"/>
 <m_RuleData href="#ref-75"/>
 <m_RuleResult href="#ref-76"/>
+<m_strId>transaction_response_time_percentile_UC4_SearchTickets</m_strId>
+<m_IsValid>true</m_IsValid>
+<m_PrimaryException href="#ref-77"/>
+</a7:SLARuleInfo>
+<a7:SLARuleInfo id="ref-24" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RuleDef href="#ref-78"/>
+<m_RuleData href="#ref-79"/>
+<m_RuleResult href="#ref-80"/>
 <m_strId>transaction_response_time_percentile_UC5_BuyTicket</m_strId>
 <m_IsValid>true</m_IsValid>
-<m_PrimaryException xsi:null="1"/>
+<m_PrimaryException href="#ref-81"/>
 </a7:SLARuleInfo>
 <a7:SLARuleInfo id="ref-25" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RuleDef href="#ref-77"/>
-<m_RuleData href="#ref-78"/>
-<m_RuleResult href="#ref-79"/>
+<m_RuleDef href="#ref-82"/>
+<m_RuleData href="#ref-83"/>
+<m_RuleResult href="#ref-84"/>
 <m_strId>transaction_response_time_percentile_UC6_Login</m_strId>
 <m_IsValid>true</m_IsValid>
-<m_PrimaryException xsi:null="1"/>
+<m_PrimaryException href="#ref-85"/>
 </a7:SLARuleInfo>
 <a7:SLAPercentileRuleDef id="ref-26" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>choose_ticket</FSubMsrName>
@@ -193,11 +193,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-27" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>2.189</m_RealValue>
+<m_RealValue>0.773</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-28" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusOK</m_Status>
-<m_RealValue>2.189</m_RealValue>
+<m_RealValue>0.773</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-29" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -214,11 +214,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-30" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>4.533</m_RealValue>
+<m_RealValue>1.608</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-31" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>4.533</m_RealValue>
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>1.608</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-32" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -235,11 +235,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-33" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>5.046</m_RealValue>
+<m_RealValue>1.928</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-34" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>5.046</m_RealValue>
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>1.928</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-35" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -256,11 +256,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-36" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>5.146</m_RealValue>
+<m_RealValue>1.735</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-37" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>5.146</m_RealValue>
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>1.735</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-38" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -277,11 +277,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-39" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>2.726</m_RealValue>
+<m_RealValue>0.955</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-40" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>2.726</m_RealValue>
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.955</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-41" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -298,11 +298,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-42" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>4.75699999</m_RealValue>
+<m_RealValue>1.463</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-43" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>4.75699999</m_RealValue>
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>1.463</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-44" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -319,11 +319,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-45" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>2.099</m_RealValue>
+<m_RealValue>0.766</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-46" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusOK</m_Status>
-<m_RealValue>2.099</m_RealValue>
+<m_RealValue>0.766</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-47" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -340,11 +340,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-48" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>5.087</m_RealValue>
+<m_RealValue>1.693</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-49" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>5.087</m_RealValue>
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>1.693</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-50" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -361,11 +361,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-51" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>4.005</m_RealValue>
+<m_RealValue>1.405</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-52" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>4.005</m_RealValue>
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>1.405</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-53" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -382,11 +382,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-54" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>2.623</m_RealValue>
+<m_RealValue>0.784</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-55" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>2.623</m_RealValue>
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>0.784</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-56" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -403,11 +403,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-57" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>2.27599999</m_RealValue>
+<m_RealValue>1.01499999</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-58" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusOK</m_Status>
-<m_RealValue>2.27599999</m_RealValue>
+<m_RealValue>1.01499999</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-59" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -424,11 +424,11 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-60" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>3.042</m_RealValue>
+<m_RealValue>1.092</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-61" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_Status>rulesStatusFail</m_Status>
-<m_RealValue>3.042</m_RealValue>
+<m_Status>rulesStatusOK</m_Status>
+<m_RealValue>1.092</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
 <a7:SLAPercentileRuleDef id="ref-62" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
@@ -445,14 +445,28 @@
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
 <a7:SimpleRuleData id="ref-63" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>36.192</m_RealValue>
+<m_RealValue>25.633</m_RealValue>
 </a7:SimpleRuleData>
 <a7:SLASimpleRuleResult id="ref-64" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusFail</m_Status>
-<m_RealValue>36.192</m_RealValue>
+<m_RealValue>25.633</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a7:SLAPercentileRuleDef id="ref-65" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a6:Exception id="ref-65" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-66" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>UC2_CheckMyTickets</FSubMsrName>
 <FGoalValue>2.5</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -465,15 +479,29 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-66" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>31.655</m_RealValue>
+<a7:SimpleRuleData id="ref-67" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>20.71399999</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-67" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLASimpleRuleResult id="ref-68" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusFail</m_Status>
-<m_RealValue>31.655</m_RealValue>
+<m_RealValue>20.71399999</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a7:SLAPercentileRuleDef id="ref-68" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a6:Exception id="ref-69" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-70" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>UC3_RemoveTicket</FSubMsrName>
 <FGoalValue>2.5</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -486,15 +514,29 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-69" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>38.41299999</m_RealValue>
+<a7:SimpleRuleData id="ref-71" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>26.383</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-70" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLASimpleRuleResult id="ref-72" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusFail</m_Status>
-<m_RealValue>38.41299999</m_RealValue>
+<m_RealValue>26.383</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a7:SLAPercentileRuleDef id="ref-71" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a6:Exception id="ref-73" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-74" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>UC4_SearchTickets</FSubMsrName>
 <FGoalValue>2.5</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -507,15 +549,29 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-72" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>36.04699999</m_RealValue>
+<a7:SimpleRuleData id="ref-75" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>26.174</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-73" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLASimpleRuleResult id="ref-76" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusFail</m_Status>
-<m_RealValue>36.04699999</m_RealValue>
+<m_RealValue>26.174</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a7:SLAPercentileRuleDef id="ref-74" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a6:Exception id="ref-77" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-78" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>UC5_BuyTicket</FSubMsrName>
 <FGoalValue>2.5</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -528,15 +584,29 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-75" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>50.834</m_RealValue>
+<a7:SimpleRuleData id="ref-79" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>37.523</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-76" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLASimpleRuleResult id="ref-80" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusFail</m_Status>
-<m_RealValue>50.834</m_RealValue>
+<m_RealValue>37.523</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
-<a7:SLAPercentileRuleDef id="ref-77" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a6:Exception id="ref-81" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
+<a7:SLAPercentileRuleDef id="ref-82" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <FSubMsrName>UC6_Login</FSubMsrName>
 <FGoalValue>2.5</FGoalValue>
 <FPercentage>90</FPercentage>
@@ -549,13 +619,27 @@
 <SLARuleDef_x002B_m_Measurement>transaction_response_time_percentile</SLARuleDef_x002B_m_Measurement>
 <SLARuleDef_x002B_m_CalcDirection>greater_than_equal</SLARuleDef_x002B_m_CalcDirection>
 </a7:SLAPercentileRuleDef>
-<a7:SimpleRuleData id="ref-78" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
-<m_RealValue>31.813</m_RealValue>
+<a7:SimpleRuleData id="ref-83" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<m_RealValue>20.731</m_RealValue>
 </a7:SimpleRuleData>
-<a7:SLASimpleRuleResult id="ref-79" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
+<a7:SLASimpleRuleResult id="ref-84" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/SLARules/Analysis.SLA">
 <m_Status>rulesStatusFail</m_Status>
-<m_RealValue>31.813</m_RealValue>
+<m_RealValue>20.731</m_RealValue>
 <m_GoalValue>2.5</m_GoalValue>
 </a7:SLASimpleRuleResult>
+<a6:Exception id="ref-85" xmlns:a6="http://schemas.microsoft.com/clr/ns/System">
+<ClassName>System.Exception</ClassName>
+<Message>The required measurement data is empty. The measurement might be invalid or does not correspond with the supplied filter. Please check the required measurement and the supplied filter.</Message>
+<Data xsi:null="1"/>
+<InnerException xsi:null="1"/>
+<HelpURL xsi:null="1"/>
+<StackTraceString xsi:null="1"/>
+<RemoteStackTraceString xsi:null="1"/>
+<RemoteStackIndex>0</RemoteStackIndex>
+<ExceptionMethod xsi:null="1"/>
+<HResult>-2146233088</HResult>
+<Source xsi:null="1"/>
+<WatsonBuckets xsi:null="1"/>
+</a6:Exception>
 </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>

@@ -28,8 +28,8 @@ ActionClearFilterEnabled=0
 [Graph Definitions]
 ChartFile=D:\LoadRunner\LRProjects\Скрипты\Результаты\debuggingTestAnalysis\Result0_Graph1.cfg
 View3D=0
-IntLegendVisible=0
-Chart3dPercent=1
+IntLegendVisible=1
+Chart3dPercent=10
 Pen_Style=0
 Pen_SmallDots=0
 Pen_Visible=1
@@ -40,7 +40,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T179705512T
+TableName=T276241793T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -118,7 +118,7 @@ DimeFuncCount=0
 [Granularity]
 Dimension=Scenario Elapsed Time
 TimeScaleType=2
-Granularity=40
+Granularity=60
 BaseGranularityUIName=Hits
 MinimumDefaultGranularity=5
 
